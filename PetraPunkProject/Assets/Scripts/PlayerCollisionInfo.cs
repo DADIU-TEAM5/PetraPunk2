@@ -10,6 +10,7 @@ public class PlayerCollisionInfo : MonoBehaviour
     public AudioCue audioCue;
     public FloatVariable distanceToObstacle;
     public GameEvent jumpEvent;
+    public GameEvent playerCollisionEvent;
 
     public float slowDownRate = 0.2F;
     private bool isSlowingDown = false;
@@ -77,6 +78,7 @@ public class PlayerCollisionInfo : MonoBehaviour
             playerController.GetHit(collision.GetContact(0).normal);
             audioCue.Play(collision.gameObject);
 
+            playerCollisionEvent.Raise();
 
         }
 
