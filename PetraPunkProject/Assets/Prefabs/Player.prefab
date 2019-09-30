@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f66ef1252727224bafe105bd2c265a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeScript: {fileID: 0}
   PlayerTrans: {fileID: 4612853149198441980}
   playerController: {fileID: 3790281797879785047}
   audioCue: {fileID: 11400000, guid: 2506e6da8adf7cb4f9331029bbaa1245, type: 2}
@@ -390,8 +391,6 @@ GameObject:
   - component: {fileID: 7839458431460443598}
   - component: {fileID: 3790281797879785047}
   - component: {fileID: 6453053320240262777}
-  - component: {fileID: 4821387865526884122}
-  - component: {fileID: 6376704629262068938}
   m_Layer: 0
   m_Name: Player Controller
   m_TagString: Untagged
@@ -444,6 +443,7 @@ MonoBehaviour:
   DashDuration: 0.1
   airMultiplier: 1
   airHorizontalSpeed: 15
+  anim: {fileID: 0}
   dashCDtimer: {fileID: 11400000, guid: 3dfe75c0337420f40831067b569d4a58, type: 2}
   swipe4Dash: {fileID: 11400000, guid: 688b3084b3ae7e54ba392a1a8ee40de6, type: 2}
   dashAudio: {fileID: 11400000, guid: 398c6829b04ab9d4880aff2ecd6bb9b6, type: 2}
@@ -473,38 +473,6 @@ MonoBehaviour:
   playerCOntroller: {fileID: 3790281797879785047}
   minDistance4Swipe: 100
   swipe4Dash: {fileID: 11400000, guid: 688b3084b3ae7e54ba392a1a8ee40de6, type: 2}
---- !u!114 &4821387865526884122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6302871270875934596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfa45642fe0d1f44b35d8d46d99e57e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 0879480d1ac96f848b5eae3312d1ffe3, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &6376704629262068938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6302871270875934596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfa45642fe0d1f44b35d8d46d99e57e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 0bde7490e5a85f149bff7b0a32ef47ab, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &705389923
 PrefabInstance:
   m_ObjectHideFlags: 0
