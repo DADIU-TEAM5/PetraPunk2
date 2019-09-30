@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -447,7 +448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f6a119ad198ae4395069697a38d209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsFading: 1
+  IsFading: 0
   screenImage: {fileID: 1422822928}
   fadeSpeed: 0.01
 --- !u!1 &736361915 stripped
@@ -792,8 +793,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -985,8 +984,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1745643304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,8 +1011,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1866258356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,8 +1036,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866258356}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -1162,8 +1158,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: d1dac5e9e99dc2e45be6201b45d178fb, type: 3}
     m_FontSize: 14
@@ -1390,11 +1384,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4158825360292436028, guid: e94aa01a7b8c22f4484e00c8e063c2d2,
-        type: 3}
-      propertyPath: m_Name
-      value: gyroObject
-      objectReference: {fileID: 0}
     - target: {fileID: 4158825360292436026, guid: e94aa01a7b8c22f4484e00c8e063c2d2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1449,6 +1438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4158825360292436028, guid: e94aa01a7b8c22f4484e00c8e063c2d2,
+        type: 3}
+      propertyPath: m_Name
+      value: gyroObject
       objectReference: {fileID: 0}
     - target: {fileID: 4158825360292436027, guid: e94aa01a7b8c22f4484e00c8e063c2d2,
         type: 3}
@@ -1540,10 +1534,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: SlopeSpeed
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: DashCD
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: FlatSpeed
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: FlatAcceleration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: SlopeAcceleration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5948774518202955115, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612853147910741474, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: jumpEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f43b127da4d74c46accbb951bebee17,
+        type: 2}
+    - target: {fileID: 4612853147910741474, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: slowDownRate
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4612853149198441983, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
@@ -1574,42 +1604,6 @@ PrefabInstance:
         type: 3}
       propertyPath: FlatSpeed
       value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: SlopeSpeed
-      value: 85
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: DashCD
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: FlatSpeed
-      value: 85
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: FlatAcceleration
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: SlopeAcceleration
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4612853147910741474, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: jumpEvent
-      value: 
-      objectReference: {fileID: 11400000, guid: 1f43b127da4d74c46accbb951bebee17,
-        type: 2}
-    - target: {fileID: 4612853147910741474, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: slowDownRate
-      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b232afd2bc9c44d9372467360cfa7e, type: 3}
@@ -1730,6 +1724,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2104747073, guid: f6b915ea55a531c4196ad0605ab100b1, type: 3}
+      propertyPath: myObject
+      value: 
+      objectReference: {fileID: 4158825359162230136}
     - target: {fileID: 5855166734372820634, guid: f6b915ea55a531c4196ad0605ab100b1,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -1749,10 +1747,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2104747073, guid: f6b915ea55a531c4196ad0605ab100b1, type: 3}
-      propertyPath: myObject
-      value: 
-      objectReference: {fileID: 4158825359162230136}
     - target: {fileID: 228684207, guid: f6b915ea55a531c4196ad0605ab100b1, type: 3}
       propertyPath: m_RootOrder
       value: 3
