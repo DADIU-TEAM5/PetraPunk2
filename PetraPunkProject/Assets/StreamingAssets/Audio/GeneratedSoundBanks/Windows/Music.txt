@@ -7,10 +7,13 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3899915506	PlayerOnSlope			\Default Work Unit\PlayerOnSlope	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	376700116	BeatIntenseRR	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\BeatIntenseRR_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntenser\BeatIntenseRR\BeatIntenseRR		413306
-	383882074	BeatsChillest	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\BeatsChillest_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsStart\BeatsChillest\BeatsChillest		98489
-	420112959	BeatIntense	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\BeatIntense_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntense\BeatIntense\BeatIntense		416385
-	880957931	BottleBeatTest	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\BottleBeatTest_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beat2\BottleBeatTest\BottleBeatTest		409084
-	915646530	BeatChill	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\BeatChill_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsStart\BeatChill\BeatChill		573564
-	1047015718	Plingmelodi	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\Plingmelodi_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Pingermucis\Plingmelodi\Plingmelodi		557777
+	194851116	ThreeBarSimpleHat	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\ThreeBarSimpleHat_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsStart\ThreeBarSimpleHat\ThreeBarSimpleHat		308931
+	282085368	NewBasssssss	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\NewBasssssss_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\New\Bass\NewBasssssss\NewBasssssss		353982
+	286810249	16BarBeat2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\16BarBeat2_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beat2\16BarBeat2\16BarBeat2		811238
+	419355521	NewCalmBeat1	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\NewCalmBeat1_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntense\NewCalmBeat1\NewCalmBeat1		426873
+	458543221	Melodi	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\Melodi_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Pingermucis\Melodi\Melodi		656329
+	834897999	NewIntenseBeat1	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\NewIntenseBeat1_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntenser\NewIntenseBeat1\NewIntenseBeat1		440323
+	861130625	NewCalmBeat2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\NewCalmBeat2_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntense\NewCalmBeat2\NewCalmBeat2		426832
+	890714625	NewIntroBeat	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\NewIntroBeat_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsStart\NewIntroBeat\NewIntroBeat		199973
+	1022102426	NewIntenseBeat2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Windows\SFX\NewIntenseBeat2_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntenser\NewIntenseBeat2\NewIntenseBeat2		446478
 
