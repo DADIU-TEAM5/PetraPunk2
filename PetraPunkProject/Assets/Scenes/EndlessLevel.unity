@@ -978,6 +978,21 @@ PrefabInstance:
       propertyPath: DashDuration
       value: 0.12
       objectReference: {fileID: 0}
+    - target: {fileID: 162327509537404794, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: UseSlopeAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769385842949030837, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769385842949030837, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: angle
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b232afd2bc9c44d9372467360cfa7e, type: 3}
 --- !u!1001 &1193331896
