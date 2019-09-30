@@ -75,32 +75,33 @@ public class tutorialController : MonoBehaviour
         {
             //Debug.Log("position: " + player.transform.position.x);
             isTurningLeft = false;
+           
             Destroy(phoneUI);
             nextSegment.Segment = tutorialSegments[2];
-            StartCoroutine(timeToDodge());
+            StartCoroutine(timeToJump());
         }
 
-        // Part 4 - Start Dashing
-        if (isDashing)
-        {
-            //Debug.Log("We Dashin");
-            if (!dashText.enabled)
-            {
-                dashCount = 0;
-                //Debug.Log("Dash Text On");
-                dashText.enabled = true;
-            }
+        //// Part 4 - Start Dashing
+        //if (isDashing)
+        //{
+        //    //Debug.Log("We Dashin");
+        //    if (!dashText.enabled)
+        //    {
+        //        dashCount = 0;
+        //        //Debug.Log("Dash Text On");
+        //        dashText.enabled = true;
+        //    }
 
-            if (dashCount >= 3)
-            {
-                //Debug.Log("Tutorial is Done");
-                dashText.enabled = false;
-                isDashing = false;
-                isJumping = true;
+        //    if (dashCount >= 3)
+        //    {
+        //        //Debug.Log("Tutorial is Done");
+        //        dashText.enabled = false;
+        //        isDashing = false;
+        //        isJumping = true;
 
-            }
+        //    }
 
-        }
+        //}
 
         // Part 5 - Start Jumping
         if (isJumping)
@@ -117,12 +118,12 @@ public class tutorialController : MonoBehaviour
 
     }
 
-    IEnumerator timeToDodge()
+    IEnumerator timeToJump()
     {
         print(Time.time);
         yield return new WaitForSeconds(dodgeTime);
         print(Time.time);
-        isDashing = true;
+        isJumping = true;
     }
 
     public void IncreaseDashCount()

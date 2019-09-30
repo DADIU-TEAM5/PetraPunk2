@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlayerCollisionInfo : MonoBehaviour
 {
+    public fadeOutScript fadeScript;
     public Transform PlayerTrans;
     public PlayerController playerController;
     public AudioCue audioCue;
     public FloatVariable distanceToObstacle;
     public GameEvent jumpEvent;
+    public GameEvent playerCollisionEvent;
 
     public float slowDownRate = 0.2F;
     private bool isSlowingDown = false;
@@ -76,6 +78,7 @@ public class PlayerCollisionInfo : MonoBehaviour
             playerController.GetHit(collision.GetContact(0).normal);
             audioCue.Play(collision.gameObject);
 
+            playerCollisionEvent.Raise();
 
         }
 
@@ -89,6 +92,8 @@ public class PlayerCollisionInfo : MonoBehaviour
         {
             jumpEvent.Raise();
             JumpData temp = collision.gameObject.GetComponent<JumpData>();
+
+            temp.PlayAnimation();
             playerController.Jump(temp.Height, temp.AirTime,temp.JumpCurve);
         }
 
@@ -132,7 +137,7 @@ public class PlayerCollisionInfo : MonoBehaviour
         playerController.Speed = Mathf.Max(playerController.Speed - slowDownRate, 0);
         if (playerController.Speed==0)
         {
-            
+            fadeScript.IsFading = true;
         }
 
         

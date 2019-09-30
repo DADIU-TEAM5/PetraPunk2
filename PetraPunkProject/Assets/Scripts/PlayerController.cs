@@ -34,6 +34,9 @@ public class PlayerController : MonoBehaviour
 
     [Header("Other stuff")]
 
+    public Animator anim;
+
+
     Transform deathCamPos;
     Vector3 currentPosition;
     Vector3 lastPosition;
@@ -94,6 +97,8 @@ public class PlayerController : MonoBehaviour
         hitCooldown = invulnerableSecs;
 
         Speed = MinSpeed;
+
+        dashCooldownActiveVar.Value = false;
     }
     private void Awake()
     {
@@ -126,21 +131,30 @@ public class PlayerController : MonoBehaviour
 
         Move();
 
-        if (Input.GetKeyDown(KeyCode.Q))
+
+        if (dashCooldownActiveVar.Value == false)
         {
-            swipe4Dash.Value = -1;
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            swipe4Dash.Value = 1;
+ 
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                dashCooldownActiveVar.Value = true;
+                swipe4Dash.Value = -1;
+            }
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                dashCooldownActiveVar.Value = true;
+                swipe4Dash.Value = 1;
+            }
+
+            if (swipe4Dash.Value != 0)
+            {
+                Dash(swipe4Dash.Value);
+                dashCooldownActiveVar.Value = true;
+
+                swipe4Dash.Value = 0;
+            }
         }
 
-        if (swipe4Dash.Value != 0)
-        {
-            Dash(swipe4Dash.Value);
-
-            swipe4Dash.Value = 0;
-        }
 
         ApplyDashMovement();
 
@@ -159,6 +173,12 @@ public class PlayerController : MonoBehaviour
         {
             FallAndDie();
         }
+
+
+        anim.SetBool("OnSlope", OnSlope);
+        anim.SetBool("InAir", inAir);
+
+        
 
         //audio setup
         audioSlope.Value = OnSlope;
