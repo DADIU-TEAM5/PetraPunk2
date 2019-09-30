@@ -55,6 +55,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -147,6 +148,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -313,6 +315,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -406,6 +409,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -499,6 +503,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1269,7 +1274,7 @@ PrefabInstance:
     - target: {fileID: 6987597788978591228, guid: 83727da2c1232224d80cdc2214b333ee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 175
+      value: 199
       objectReference: {fileID: 0}
     - target: {fileID: 6987597788978591228, guid: 83727da2c1232224d80cdc2214b333ee,
         type: 3}
@@ -3196,11 +3201,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1362102361577334873}
     m_Modifications:
-    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
-        type: 3}
-      propertyPath: m_Name
-      value: Rockwall02_low
-      objectReference: {fileID: 0}
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3214,7 +3214,7 @@ PrefabInstance:
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
@@ -3270,6 +3270,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
+        type: 3}
+      propertyPath: m_Name
+      value: Rockwall02_low
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b8b132d8861a1e4793c32f8c7a9b773, type: 3}
@@ -3379,7 +3384,7 @@ PrefabInstance:
     - target: {fileID: 7708346724763346098, guid: 7b81f47e5ecf8ba49a89de4d0e64e23a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 151
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 7708346724763346098, guid: 7b81f47e5ecf8ba49a89de4d0e64e23a,
         type: 3}
@@ -3606,11 +3611,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1362102361577334873}
     m_Modifications:
-    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
-        type: 3}
-      propertyPath: m_Name
-      value: Rockwall02_low (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3680,6 +3680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
+        type: 3}
+      propertyPath: m_Name
+      value: Rockwall02_low (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b8b132d8861a1e4793c32f8c7a9b773, type: 3}
@@ -4776,11 +4781,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1362102361577334873}
     m_Modifications:
-    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
-        type: 3}
-      propertyPath: m_Name
-      value: Rockwall02_low (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4850,6 +4850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
+        type: 3}
+      propertyPath: m_Name
+      value: Rockwall02_low (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b8b132d8861a1e4793c32f8c7a9b773, type: 3}
@@ -5114,7 +5119,7 @@ PrefabInstance:
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
@@ -5586,11 +5591,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1362102361577334873}
     m_Modifications:
-    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
-        type: 3}
-      propertyPath: m_Name
-      value: Rockwall02_low (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5604,7 +5604,7 @@ PrefabInstance:
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 199
+      value: 175
       objectReference: {fileID: 0}
     - target: {fileID: 8444862642750993787, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
         type: 3}
@@ -5660,6 +5660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857541269086619496, guid: 2b8b132d8861a1e4793c32f8c7a9b773,
+        type: 3}
+      propertyPath: m_Name
+      value: Rockwall02_low (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b8b132d8861a1e4793c32f8c7a9b773, type: 3}
@@ -5999,7 +6004,7 @@ PrefabInstance:
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 127
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
@@ -6244,7 +6249,7 @@ PrefabInstance:
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 55
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
@@ -6879,7 +6884,7 @@ PrefabInstance:
     - target: {fileID: 7708346724763346098, guid: 7b81f47e5ecf8ba49a89de4d0e64e23a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 79
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7708346724763346098, guid: 7b81f47e5ecf8ba49a89de4d0e64e23a,
         type: 3}
@@ -7749,7 +7754,7 @@ PrefabInstance:
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 103
+      value: 151
       objectReference: {fileID: 0}
     - target: {fileID: 3929803474665979864, guid: 76f576d01f608da4a8a196da51bc5be8,
         type: 3}
