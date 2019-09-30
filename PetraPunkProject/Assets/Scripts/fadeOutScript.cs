@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class fadeOutScript : MonoBehaviour
 {
@@ -24,9 +25,9 @@ public class fadeOutScript : MonoBehaviour
             tempColor.a += fadeSpeed;
             screenImage.color = tempColor;
 
-            if(screenImage.color.a <= 1)
+            if(screenImage.color.a >= 1.2)
             {
-                // 
+                SceneManager.LoadScene("EndlessLevel");
             }
            
         }   
