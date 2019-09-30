@@ -390,7 +390,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 30, y: -500}
-  m_SizeDelta: {x: 800, y: 125}
+  m_SizeDelta: {x: 1100, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3355849025208498519
 CanvasRenderer:
@@ -647,7 +647,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 30, y: -250}
-  m_SizeDelta: {x: 800, y: 125}
+  m_SizeDelta: {x: 1100, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3355849025777876689
 CanvasRenderer:
@@ -790,7 +790,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 30, y: -125}
-  m_SizeDelta: {x: 800, y: 125}
+  m_SizeDelta: {x: 1100, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3355849025951279810
 CanvasRenderer:
@@ -1163,7 +1163,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 30.000029, y: -375.00006}
-  m_SizeDelta: {x: 800, y: 125}
+  m_SizeDelta: {x: 1100, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7107448057790346803
 CanvasRenderer:
@@ -1788,11 +1788,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3355849025493196687}
     m_Modifications:
-    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
-        type: 3}
-      propertyPath: m_Name
-      value: title
-      objectReference: {fileID: 0}
     - target: {fileID: 4570447313553020136, guid: 38e3444bcd3ba1541b21117c4dec9a73,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1897,6 +1892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
+        type: 3}
+      propertyPath: m_Name
+      value: title
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e3444bcd3ba1541b21117c4dec9a73, type: 3}
