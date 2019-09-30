@@ -24,7 +24,11 @@ public class fadeOutScript : MonoBehaviour
             tempColor.a += fadeSpeed;
             screenImage.color = tempColor;
 
-            Debug.Log(screenImage.color.a);
+            if(screenImage.color.a <= 1)
+            {
+                // 
+            }
+           
         }   
     }
 }
