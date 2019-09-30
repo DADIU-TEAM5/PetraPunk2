@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2404675871	DashUncool			\PlayerCharacter\Movement\DashUncool	
 	2767591232	SpeedWhoosh			\PlayerCharacter\Movement\SpeedWhoosh	
 	2886188696	FootStepLoopPlaceholder			\PlayerCharacter\Movement\FootStepLoopPlaceholder	
+	4149105284	Jumppad			\PlayerCharacter\Movement\Jumppad	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
