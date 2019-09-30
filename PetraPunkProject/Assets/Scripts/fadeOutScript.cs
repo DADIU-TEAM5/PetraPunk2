@@ -11,6 +11,7 @@ public class fadeOutScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //screenImage = GetComponent<Image>();
         
     }
 
@@ -19,7 +20,11 @@ public class fadeOutScript : MonoBehaviour
     {
         if (IsFading)
         {
-            //screenImage.color.a += fadeSpeed;
+            var tempColor = screenImage.color;
+            tempColor.a += fadeSpeed;
+            screenImage.color = tempColor;
+
+            Debug.Log(screenImage.color.a);
         }   
     }
 }
