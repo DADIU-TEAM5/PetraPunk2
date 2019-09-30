@@ -981,7 +981,7 @@ PrefabInstance:
     - target: {fileID: 162327509537404794, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
       propertyPath: UseSlopeAngle
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6769385842949030837, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
