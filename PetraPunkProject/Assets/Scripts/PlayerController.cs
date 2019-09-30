@@ -34,6 +34,9 @@ public class PlayerController : MonoBehaviour
 
     [Header("Other stuff")]
 
+    public Animator anim;
+
+
     Transform deathCamPos;
     Vector3 currentPosition;
     Vector3 lastPosition;
@@ -170,6 +173,12 @@ public class PlayerController : MonoBehaviour
         {
             FallAndDie();
         }
+
+
+        anim.SetBool("OnSlope", OnSlope);
+        anim.SetBool("InAir", inAir);
+
+        
 
         //audio setup
         audioSlope.Value = OnSlope;

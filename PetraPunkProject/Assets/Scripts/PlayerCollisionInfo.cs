@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCollisionInfo : MonoBehaviour
 {
+    public fadeOutScript fadeScript;
     public Transform PlayerTrans;
     public PlayerController playerController;
     public AudioCue audioCue;
@@ -134,7 +135,7 @@ public class PlayerCollisionInfo : MonoBehaviour
         playerController.Speed = Mathf.Max(playerController.Speed - slowDownRate, 0);
         if (playerController.Speed==0)
         {
-            
+            fadeScript.IsFading = true;
         }
 
         
