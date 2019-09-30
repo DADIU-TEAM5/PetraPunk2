@@ -3,7 +3,7 @@
 	<RootPaths>
 		<ProjectRoot>C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\</ProjectRoot>
 		<SourceFilesRoot>C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\dadiu\Documents\GitHub\ProjectPetraPunk\PetraPunk\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<SoundBanksRoot>C:\Users\dadiu\Documents\GitHub\PetraPunk2\PetraPunkProject\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -65,6 +65,7 @@
 				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\PlayerCharacter\Movement\Dash" DurationType="OneShot" DurationMin="0.572032" DurationMax="0.986647"/>
 				<Event Id="2404675871" Name="DashUncool" ObjectPath="\Events\PlayerCharacter\Movement\DashUncool" DurationType="OneShot" DurationMin="0.804555" DurationMax="1.276603"/>
 				<Event Id="2886188696" Name="FootStepLoopPlaceholder" ObjectPath="\Events\PlayerCharacter\Movement\FootStepLoopPlaceholder" DurationType="Infinite"/>
+				<Event Id="4149105284" Name="Jumppad" ObjectPath="\Events\PlayerCharacter\Movement\Jumppad" DurationType="OneShot" DurationMin="0.804555" DurationMax="1.276603"/>
 				<Event Id="2767591232" Name="SpeedWhoosh" ObjectPath="\Events\PlayerCharacter\Movement\SpeedWhoosh" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -300,29 +301,41 @@
 				<Event Id="4195921398" Name="MusicTest" ObjectPath="\Events\MusicEvents\MusicTest" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="376700116" Language="SFX">
-					<ShortName>BeatIntenseRR.wav</ShortName>
-					<Path>SFX\BeatIntenseRR_9F132F2F.wem</Path>
+				<File Id="194851116" Language="SFX">
+					<ShortName>ThreeBarSimpleHat.wav</ShortName>
+					<Path>SFX\ThreeBarSimpleHat_9F132F2F.wem</Path>
 				</File>
-				<File Id="383882074" Language="SFX">
-					<ShortName>BeatsChillest.wav</ShortName>
-					<Path>SFX\BeatsChillest_9F132F2F.wem</Path>
+				<File Id="282085368" Language="SFX">
+					<ShortName>NewBasssssss.wav</ShortName>
+					<Path>SFX\NewBasssssss_9F132F2F.wem</Path>
 				</File>
-				<File Id="420112959" Language="SFX">
-					<ShortName>BeatIntense.wav</ShortName>
-					<Path>SFX\BeatIntense_9F132F2F.wem</Path>
+				<File Id="286810249" Language="SFX">
+					<ShortName>16BarBeat2.wav</ShortName>
+					<Path>SFX\16BarBeat2_9F132F2F.wem</Path>
 				</File>
-				<File Id="880957931" Language="SFX">
-					<ShortName>BottleBeatTest.wav</ShortName>
-					<Path>SFX\BottleBeatTest_9F132F2F.wem</Path>
+				<File Id="419355521" Language="SFX">
+					<ShortName>NewCalmBeat1.wav</ShortName>
+					<Path>SFX\NewCalmBeat1_9F132F2F.wem</Path>
 				</File>
-				<File Id="915646530" Language="SFX">
-					<ShortName>BeatChill.wav</ShortName>
-					<Path>SFX\BeatChill_9F132F2F.wem</Path>
+				<File Id="458543221" Language="SFX">
+					<ShortName>Melodi.wav</ShortName>
+					<Path>SFX\Melodi_9F132F2F.wem</Path>
 				</File>
-				<File Id="1047015718" Language="SFX">
-					<ShortName>Plingmelodi.wav</ShortName>
-					<Path>SFX\Plingmelodi_9F132F2F.wem</Path>
+				<File Id="834897999" Language="SFX">
+					<ShortName>NewIntenseBeat1.wav</ShortName>
+					<Path>SFX\NewIntenseBeat1_9F132F2F.wem</Path>
+				</File>
+				<File Id="861130625" Language="SFX">
+					<ShortName>NewCalmBeat2.wav</ShortName>
+					<Path>SFX\NewCalmBeat2_9F132F2F.wem</Path>
+				</File>
+				<File Id="890714625" Language="SFX">
+					<ShortName>NewIntroBeat.wav</ShortName>
+					<Path>SFX\NewIntroBeat_9F132F2F.wem</Path>
+				</File>
+				<File Id="1022102426" Language="SFX">
+					<ShortName>NewIntenseBeat2.wav</ShortName>
+					<Path>SFX\NewIntenseBeat2_9F132F2F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

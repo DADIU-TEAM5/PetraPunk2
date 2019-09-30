@@ -4705,6 +4705,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9491,6 +9492,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9565,7 +9567,7 @@ Transform:
   m_GameObject: {fileID: 5984730534608014549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.7, y: 0, z: 0.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 5984730534384917299}
   m_Father: {fileID: 0}
@@ -9597,11 +9599,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5984730534384917299}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9c81193723df18840be43dd2bc00440e,
-        type: 3}
-      propertyPath: m_Name
-      value: ScarabMesh
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9c81193723df18840be43dd2bc00440e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9656,6 +9653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9c81193723df18840be43dd2bc00440e,
+        type: 3}
+      propertyPath: m_Name
+      value: ScarabMesh
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 9c81193723df18840be43dd2bc00440e,
         type: 3}
