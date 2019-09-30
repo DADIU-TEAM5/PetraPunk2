@@ -1575,6 +1575,11 @@ PrefabInstance:
       propertyPath: slowDownRate
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 4612853147910741474, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: fadeScript
+      value: 
+      objectReference: {fileID: 718427769}
     - target: {fileID: 4612853149198441983, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
       propertyPath: FlatAcceleration
