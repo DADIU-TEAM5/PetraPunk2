@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6468700c3fd18da43ab418311ae331a5, type: 3}
-  m_Name: TimePoints
+  m_Script: {fileID: 11500000, guid: 6556abbe15d538a48b1e8c9679dec0e0, type: 3}
+  m_Name: playerName
   m_EditorClassIdentifier: 
-  Value: 2500
+  Value: thomas

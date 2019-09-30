@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6468700c3fd18da43ab418311ae331a5, type: 3}
-  m_Name: TimePoints
+  m_Script: {fileID: 11500000, guid: 57fb780ea336d474ca51a30940ada30e, type: 3}
+  m_Name: UI_highscore_score
   m_EditorClassIdentifier: 
-  Value: 2500
+  TextVariations: []
+  CurrentLocale: {fileID: 11400000, guid: 02485ca4caa29fa41bef0fe99c72e112, type: 2}
