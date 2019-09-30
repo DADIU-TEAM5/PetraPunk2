@@ -90,6 +90,8 @@ public class PlayerCollisionInfo : MonoBehaviour
         {
             jumpEvent.Raise();
             JumpData temp = collision.gameObject.GetComponent<JumpData>();
+
+            temp.PlayAnimation();
             playerController.Jump(temp.Height, temp.AirTime,temp.JumpCurve);
         }
 
