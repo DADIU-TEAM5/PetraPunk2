@@ -957,6 +957,7 @@ GameObject:
   - component: {fileID: 7297493729812850894}
   - component: {fileID: 1762056535417650371}
   - component: {fileID: 110893037174146182}
+  - component: {fileID: 35193158895601263}
   m_Layer: 5
   m_Name: Bt_intro04
   m_TagString: Untagged
@@ -1063,28 +1064,31 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2284423817973558335}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 35193158895601263}
+        m_MethodName: SceneLoad
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 2133043476399765418}
-        m_MethodName: Play
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 0
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &35193158895601263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342688508552488425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedScene: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71, type: 3}
 --- !u!1 &9010754269164867316
 GameObject:
   m_ObjectHideFlags: 0
