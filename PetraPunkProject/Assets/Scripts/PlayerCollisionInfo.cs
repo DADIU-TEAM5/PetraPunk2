@@ -23,7 +23,7 @@ public class PlayerCollisionInfo : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<Rigidbody>().interpolation = RigidbodyInterpolation.Interpolate;
+       // GetComponent<Rigidbody>().interpolation = RigidbodyInterpolation.Interpolate;
     }
     private void Update()
     {
