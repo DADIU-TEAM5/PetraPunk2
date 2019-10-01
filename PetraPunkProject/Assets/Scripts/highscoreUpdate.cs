@@ -59,7 +59,6 @@ public class highscoreUpdate : MonoBehaviour
             }
 
             scoreTextTemp = pos + "\t" + scoreName + scorePoints + scoreTextTemp;
-
         }
 
         if(!highscoreLoaded)
@@ -75,16 +74,14 @@ public class highscoreUpdate : MonoBehaviour
         highscoreText.GetComponent<Text>().text = scoreTextTemp;
     }
 
-    public void RemoveHighscore()
-    {
-        Destroy(highscoreText, 1f);
-    }
-
     public void UpdateHighscore()
     {
         var size = highscore.scores.Length - 1;
 
         var index = CheckHighscore();
+
+        Debug.Log(index);
+        Debug.Log(size);
 
         if (index != -1)
         {
