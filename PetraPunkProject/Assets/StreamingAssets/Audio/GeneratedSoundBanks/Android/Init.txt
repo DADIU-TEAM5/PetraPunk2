@@ -25,6 +25,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1320542602	ReverbMain			\Default Work Unit\Master Audio Bus\SFXBus\ReverbMain	
 
 Effect plug-ins	ID	Name	Type				Notes
+	187544585	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
 	281231728	Wwise Meter (Custom)	Wwise Meter			
 	483199865	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	702543456	Tunnel1	Wwise Matrix Reverb			

@@ -30,7 +30,6 @@
 				<Event Id="2385628199" Name="FootstepR" ObjectPath="\Events\PlayerCharacter\Movement\Footsteps\FootstepR" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4149105284" Name="Jumppad" ObjectPath="\Events\PlayerCharacter\Movement\Jumppad" DurationType="OneShot" DurationMin="0.804555" DurationMax="1.276603"/>
 				<Event Id="506989395" Name="MusicDron" ObjectPath="\Events\MusicEvents\MusicDron" DurationType="Infinite"/>
-				<Event Id="3845772187" Name="MusicDron2" ObjectPath="\Events\MusicEvents\MusicDron2" DurationType="Infinite"/>
 				<Event Id="4195921398" Name="MusicTest" ObjectPath="\Events\MusicEvents\MusicTest" DurationType="Infinite"/>
 				<Event Id="3015288684" Name="PipeHit" ObjectPath="\Events\Obstacles\PipeHit" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.076922" DurationMax="3.055603"/>
 				<Event Id="1805963995" Name="PitFall" ObjectPath="\Events\PlayerCharacter\PitFall" DurationType="OneShot" DurationMin="1.547392" DurationMax="1.547392"/>
