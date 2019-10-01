@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class tutorialController : MonoBehaviour
 {
@@ -131,4 +132,17 @@ public class tutorialController : MonoBehaviour
 
     }
 
+    // Could be changed to reset to specifik part of tutorial
+    public void reloadLevel()
+    {
+        StartCoroutine(load());
+        
+    }
+
+    IEnumerator load()
+    {
+        yield return new WaitForSeconds(2);
+        Scene current = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(current.name);
+    }
 }
