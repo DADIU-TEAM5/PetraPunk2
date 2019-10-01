@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Other stuff")]
 
+    bool standAndDie;
     Vector3 graphicTargetPos;
     public Transform graphics;
 
@@ -120,7 +121,7 @@ public class PlayerController : MonoBehaviour
     {
         graphics.position = graphicTargetPos + Vector3.down;
 
-        if (!fallAndDie)
+        if (!fallAndDie || !standAndDie)
         { 
 
         progress = transform.position.z;
@@ -180,10 +181,11 @@ public class PlayerController : MonoBehaviour
             lastPosition = currentPosition;
             currentPosition = transform.position;
     }
-        else
+        else if(fallAndDie)
         {
             FallAndDie();
         }
+        
 
 
         anim.SetBool("OnSlope", OnSlope);
@@ -191,6 +193,10 @@ public class PlayerController : MonoBehaviour
        // print("Anim value"+ ((Speed - MinSpeed) / (SlopeSpeed - MinSpeed)));
         anim.SetFloat("Blend", (Speed - MinSpeed) / (SlopeSpeed - MinSpeed));
 
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            anim.SetTrigger("Die");
+        }
         
 
         //audio setup
@@ -333,6 +339,11 @@ public class PlayerController : MonoBehaviour
     }
 
     
+    public void Die()
+    {
+        anim.SetTrigger("Die");
+        standAndDie = true;
+    }
 
     public void GetHit(Vector3 direction)
     {
