@@ -61,6 +61,8 @@ public class PlayerController : MonoBehaviour
     public IntVariable swipe4Dash;
     public GameEvent dashAudio;
     public GameEvent cooldownOverAudio;
+
+    public GameEvent PitfallAudioEvent;
     public BoolVariable dashCooldownActiveVar;
 
     public CameraMovement camScript;
@@ -288,10 +290,11 @@ public class PlayerController : MonoBehaviour
             
             if(!inAir && hit.collider.gameObject.CompareTag("PitFall"))
             {
+                PitfallAudioEvent.Raise();
+
                 fallAndDie = true;
 
                 deathCamPos= hit.collider.GetComponent<PitFall>().CamPosition;
-
             }
 
 
