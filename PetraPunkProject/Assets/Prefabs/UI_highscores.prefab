@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8550150598471577481}
   - component: {fileID: 3763130619232288183}
   - component: {fileID: 956543433517130921}
+  - component: {fileID: 5244852183993879332}
   m_Layer: 5
   m_Name: Bt_back
   m_TagString: Untagged
@@ -121,41 +122,29 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2380499647356804775}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3355849025493196691, guid: b344c87ad61862a4d9c1366848bc4420,
-          type: 3}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 5244852183993879332}
+        m_MethodName: loadScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 4828199581950298325, guid: 1c861acfcd62dec4db6b4e65decbf295,
-          type: 3}
-        m_MethodName: optionsMenuSelection
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5244852183993879332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138178058364642228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b168fed394c3e94e9ef202789e92963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2380499647356804775
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +529,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8177714551426767823}
     m_Modifications:
+    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
+        type: 3}
+      propertyPath: m_Name
+      value: GameText (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2403992707009775716, guid: 84eb3474e4e8ac74f890f7b2b11480df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -645,16 +644,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
-        type: 3}
-      propertyPath: m_Name
-      value: GameText (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1890893942084948774, guid: 84eb3474e4e8ac74f890f7b2b11480df,
         type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -681,6 +670,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2380499647356804795}
     m_Modifications:
+    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
+        type: 3}
+      propertyPath: m_Name
+      value: title
+      objectReference: {fileID: 0}
     - target: {fileID: 4570447313553020136, guid: 38e3444bcd3ba1541b21117c4dec9a73,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -785,11 +779,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
-        type: 3}
-      propertyPath: m_Name
-      value: title
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e3444bcd3ba1541b21117c4dec9a73, type: 3}
