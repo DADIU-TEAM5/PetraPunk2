@@ -286,8 +286,9 @@ GameObject:
   - component: {fileID: 6708096718632305133}
   - component: {fileID: 6705243357547303956}
   - component: {fileID: 2972828266695701218}
+  - component: {fileID: 1833945672760056583}
   m_Layer: 5
-  m_Name: Bt_newGame
+  m_Name: Bt_endlessMode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +359,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2445765149974239722}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -405,17 +406,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1833945672760056583}
+        m_MethodName: SceneLoad
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1833945672760056583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2445765149974239722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedScene: {fileID: 102900000, guid: 0d9d17c413b11ed44908058ad66618d1, type: 3}
 --- !u!1 &2480673087088338164
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +756,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentLocale: {fileID: 0}
+  storyScene: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71, type: 3}
+  endlessScene: {fileID: 102900000, guid: 0d9d17c413b11ed44908058ad66618d1, type: 3}
+  endlessBt: {fileID: 2972828266695701218}
+  endlessBtText: {fileID: 87103419176384636}
+  hasCompletedStory: {fileID: 11400000, guid: 46659bb54e730a0439f52c06a22193fd, type: 2}
   soundButton: {fileID: 0}
   languageButton: {fileID: 0}
   languageChange: {fileID: 0}
@@ -906,6 +925,7 @@ GameObject:
   - component: {fileID: 3355849025951279810}
   - component: {fileID: 3355849025951279813}
   - component: {fileID: 3355849025951279812}
+  - component: {fileID: 2250507885010131993}
   m_Layer: 5
   m_Name: Bt_storyMode
   m_TagString: Untagged
@@ -1025,17 +1045,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 2250507885010131993}
+        m_MethodName: SceneLoad
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2250507885010131993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3355849025951279814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedScene: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71, type: 3}
 --- !u!1 &3355849026020762556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6226415, g: 0.6167675, b: 0.6167675, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1345,7 +1378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: endless
+  m_Text: endless mode
 --- !u!114 &2977502056539314735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,7 +1391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 392964fc6cd79674ba6e266ffccf627e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameText: {fileID: 11400000, guid: ad8492125a954764780639398537c420, type: 2}
+  GameText: {fileID: 11400000, guid: 6539a232db787dd41a341f1cf04eaee4, type: 2}
   TextObject: {fileID: 87103419176384636}
 --- !u!114 &7258248210210232249
 MonoBehaviour:
@@ -1852,7 +1885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 392964fc6cd79674ba6e266ffccf627e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameText: {fileID: 11400000, guid: ad8492125a954764780639398537c420, type: 2}
+  GameText: {fileID: 11400000, guid: b7e09387fb457e348a0575ffb90f74f9, type: 2}
   TextObject: {fileID: 8028074247455535677}
 --- !u!114 &3964242495629638733
 MonoBehaviour:
@@ -2205,11 +2238,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3355849025493196687}
     m_Modifications:
-    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
-        type: 3}
-      propertyPath: m_Name
-      value: title
-      objectReference: {fileID: 0}
     - target: {fileID: 4570447313553020136, guid: 38e3444bcd3ba1541b21117c4dec9a73,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2314,6 +2342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
+        type: 3}
+      propertyPath: m_Name
+      value: title
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e3444bcd3ba1541b21117c4dec9a73, type: 3}
