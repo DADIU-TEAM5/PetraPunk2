@@ -346,13 +346,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4612853149412508616}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d10d494f4ec5d1f4bb41ad626d704a07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gyrocontroller: {fileID: 11400000, guid: 0f59f93a03b2ad24c83f9e9a46900c92, type: 2}
-  angle: 45
+  angle: 15
 --- !u!114 &6037583692180970240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,13 +435,13 @@ MonoBehaviour:
   OffSlopeDecay: 40
   ObstacleSpeedLoss: 30
   MinSpeed: 15
-  HorizontalSpeed: 15
-  SlopeHorizontalSpeed: 15
+  HorizontalSpeed: 20
+  SlopeHorizontalSpeed: 20
   slopeMultiplier: 1.5
   invulnerableSecs: 1
-  DashLength: 8
-  DashCD: 10
-  DashDuration: 0.1
+  DashLength: 4.5
+  DashCD: 0
+  DashDuration: 0.12
   airMultiplier: 1
   airHorizontalSpeed: 15
   anim: {fileID: 800292097496267911}
@@ -721,6 +721,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8404345907364240554, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 627c8bbc39abe8b46be9d2fa3bf0829f, type: 2}
+    - target: {fileID: 8939468492834736797, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a7356d812b78e349beea84ed6971701, type: 2}
+    - target: {fileID: 5683102314293531612, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7118abde5f6d88640b398c960d7224f9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15, type: 3}
 --- !u!1 &7007939529366917091 stripped
