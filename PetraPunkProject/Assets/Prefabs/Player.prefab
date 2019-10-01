@@ -190,7 +190,9 @@ MonoBehaviour:
   audioCue: {fileID: 11400000, guid: 2506e6da8adf7cb4f9331029bbaa1245, type: 2}
   distanceToObstacle: {fileID: 11400000, guid: 7eea5d7bdcdd10a47825f48a7ebebdb3, type: 2}
   jumpEvent: {fileID: 11400000, guid: 1f43b127da4d74c46accbb951bebee17, type: 2}
-  playerCollisionEvent: {fileID: 0}
+  playerCollisionEvent: {fileID: 11400000, guid: 0bde7490e5a85f149bff7b0a32ef47ab,
+    type: 2}
+  AudioOnPickup: {fileID: 11400000, guid: 0dfa53b593809ec47b4596e34e406416, type: 2}
   slowDownRate: 0.2
   TimeUp: 10
   specialPoints: {fileID: 11400000, guid: af8849b4076b2e143b425c7d8a878316, type: 2}
@@ -648,6 +650,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6276445611688705520}
     m_Modifications:
+    - target: {fileID: 2289868080365193022, guid: 3cda426730c7da843bda0a1d1c67316e,
+        type: 3}
+      propertyPath: m_Name
+      value: Particle_PlayerRunDust
+      objectReference: {fileID: 0}
     - target: {fileID: 2289868080365193021, guid: 3cda426730c7da843bda0a1d1c67316e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -703,11 +710,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2289868080365193022, guid: 3cda426730c7da843bda0a1d1c67316e,
-        type: 3}
-      propertyPath: m_Name
-      value: Particle_PlayerRunDust
-      objectReference: {fileID: 0}
     - target: {fileID: 2289868080744788435, guid: 3cda426730c7da843bda0a1d1c67316e,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
@@ -727,6 +729,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4612853149198441980}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
+        type: 3}
+      propertyPath: m_Name
+      value: Graphics
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -782,16 +789,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
-        type: 3}
-      propertyPath: m_Name
-      value: Graphics
-      objectReference: {fileID: 0}
-    - target: {fileID: 5683102314293531612, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7118abde5f6d88640b398c960d7224f9, type: 2}
     - target: {fileID: 8404345907364240554, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -802,6 +799,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1a7356d812b78e349beea84ed6971701, type: 2}
+    - target: {fileID: 5683102314293531612, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7118abde5f6d88640b398c960d7224f9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15, type: 3}
 --- !u!4 &6276445611688705520 stripped
