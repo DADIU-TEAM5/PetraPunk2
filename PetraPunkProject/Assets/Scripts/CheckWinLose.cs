@@ -12,7 +12,8 @@ public class CheckWinLose : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(hasWon)
+        Debug.Log("EndScene Has Won: " + hasWon.Value);
+        if(hasWon.Value)
         {
             UI_winScene.SetActive(true);
             hasCompletedStory.Value = true;
