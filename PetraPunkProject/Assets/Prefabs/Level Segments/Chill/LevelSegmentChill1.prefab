@@ -273,6 +273,7 @@ GameObject:
   - component: {fileID: 7003082451662626786}
   - component: {fileID: 1772034755216736266}
   - component: {fileID: 4392499202448945907}
+  - component: {fileID: 537818824966216588}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Wall
@@ -349,11 +350,26 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746301465722212509}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &537818824966216588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746301465722212509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8505e8e5356b18d4c8ef4c71e1b59a69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnterEvent: {fileID: 11400000, guid: 7bac6c72166c96248b4f4fc342221293, type: 2}
+  ExitEvent: {fileID: 11400000, guid: bf0ae03be65ba944b9637472ff98492f, type: 2}
+  StayEvent: {fileID: 0}
 --- !u!1 &1799024558603833120
 GameObject:
   m_ObjectHideFlags: 0
