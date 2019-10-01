@@ -34,3 +34,22 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Assets/Models.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Assets/Prefabs.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Assets/ShaderFunctions.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Assets/Textures.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Community/EnvironmentGradient.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/CustomRTRain.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/Mosaic Effect PPS.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/SimpleTerrain.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/StencilExample/Portals.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/Substance.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/Substance2018.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/TemplateExamples/Particles.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/TemplateExamples/PostProcess.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/TemplateExamples/Sprites.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/TemplateExamples/UI.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Examples/Official/Translucency.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Plugins/Editor/Nodes.meta
+PetraPunkProject/Assets/AmplifyShaderEditor/Plugins/EditorResources.meta

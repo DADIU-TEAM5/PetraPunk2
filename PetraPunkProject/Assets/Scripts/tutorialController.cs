@@ -13,6 +13,7 @@ public class tutorialController : MonoBehaviour
     public GameObject fadeObject;
 
     public FloatVariable health;
+    public BoolVariable hasWon;
     public SceneGenrator tutorialGenerator;
 
     public Animator animator;
@@ -38,6 +39,7 @@ public class tutorialController : MonoBehaviour
 
     private void Awake()
     {
+        hasWon.Value = false;
         fadeObject.SetActive(false);
         nextSegment.Segment = tutorialSegments[0];
         tutorialGenerator.SegementDifficulty[0] = 100;
@@ -141,8 +143,9 @@ public class tutorialController : MonoBehaviour
 
     IEnumerator load()
     {
+        Debug.Log("Has Won: " + hasWon.Value);
         yield return new WaitForSeconds(2);
-        Scene current = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(current.name);
+        //Scene current = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("EndScene");
     }
 }

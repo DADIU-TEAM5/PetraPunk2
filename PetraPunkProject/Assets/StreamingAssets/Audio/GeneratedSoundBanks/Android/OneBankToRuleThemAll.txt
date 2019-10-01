@@ -1,0 +1,145 @@
+Event	ID	Name			Wwise Object Path	Notes
+	365331358	AmbienceMain			\Ambience\AmbienceMain	
+	506989395	MusicDron			\MusicEvents\MusicDron	
+	779278001	Death			\UI and Event\Death	
+	900571619	SteamPipe			\Obstacles\SteamPipe	
+	1269172605	TestAudio			\Default Work Unit\TestAudio	
+	1432588725	Select			\UI and Event\Select	
+	1805963995	PitFall			\PlayerCharacter\PitFall	
+	1942692385	Dash			\PlayerCharacter\Movement\Dash	
+	2385628199	FootstepR			\PlayerCharacter\Movement\Footsteps\FootstepR	
+	2385628217	FootstepL			\PlayerCharacter\Movement\Footsteps\FootstepL	
+	2404675871	DashUncool			\PlayerCharacter\Movement\DashUncool	
+	2767591232	SpeedWhoosh			\PlayerCharacter\Movement\SpeedWhoosh	
+	2886188696	FootStepLoopPlaceholder			\PlayerCharacter\Movement\FootStepLoopPlaceholder	
+	3015288684	PipeHit			\Obstacles\PipeHit	
+	3686556480	Slide			\PlayerCharacter\Movement\Slide	
+	3831688773	PlayerHit			\PlayerCharacter\PlayerHit	
+	3845772187	MusicDron2			\MusicEvents\MusicDron2	
+	4149105284	Jumppad			\PlayerCharacter\Movement\Jumppad	
+	4195921398	MusicTest			\MusicEvents\MusicTest	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
+	2480792759	InCalmZone			\Default Work Unit\Music\InCalmZone	
+	3353550816	DistanceToObstacle			\Default Work Unit\DistanceToObstacle	
+	3374585465	InMenu			\Default Work Unit\InMenu	
+	3861168114	JumpPassTest			\Default Work Unit\JumpPassTest	
+	3899915506	PlayerOnSlope			\Default Work Unit\PlayerOnSlope	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	51958291	CricketsLFO_01			\Default Work Unit\CricketsLFO_01	
+	391208523	CricketsLFO_02			\Default Work Unit\CricketsLFO_02	
+
+Effect plug-ins	ID	Name	Type				Notes
+	933393503	Wwise_Gain_(Custom)	Wwise Gain			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	453202908	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\PlayerCharacter\WhooshMix\PlayerSpeedWoosh\SoundSeed Air Wind	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40859388	Ambient2MenuTutorial	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Ambient2MenuTutorial_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\New\MenuDrone\Ambient2MenuTutorial\Ambient2MenuTutorial		2819453
+	41939804	CalmDrone	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\CalmDrone_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Calm drone\CalmDrone\CalmDrone		2128683
+	51472917	FootStep_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_02		6993
+	52993535	FluteAmb_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FluteAmb_01_32A0B821.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\Flutes\FluteAmb_01		407213
+	54351493	Grunt_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Grunt_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\Grunts\Grunt_01		14179
+	55594322	PipeSTEAM	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeSTEAM_9F132F2F.wem		\Actor-Mixer Hierarchy\Pipes\Steam\PipeSTEAM		789587
+	66492164	Crickets	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Crickets_9F132F2F.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\Crickets		1360560
+	67673841	Radiate_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_03_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_03		31685
+	80836346	FootStep_07	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_07_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_07		6372
+	82547838	PipeRattle_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_01_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_01		56740
+	84086993	Radiate_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_01_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_01		17193
+	86676600	VentHit_06	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_06_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_06		54281
+	97762032	DashRattle_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashRattle_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashRattle\DashRattle_01		25177
+	111472166	SlideLoop_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\SlideLoop_01_9F132F2F.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Sliding\SlideLoop_01		11577
+	116876840	FootRattle_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_04_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_04		8078
+	129329223	FootRattle_07	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_07_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_07		7703
+	168634302	FootStep_05	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_05_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_05		7238
+	184406732	DashPipe_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashPipe_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashPipe\DashPipe_02		17019
+	186639405	DashRattle_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashRattle_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashRattle\DashRattle_02		24594
+	194851116	ThreeBarSimpleHat	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\ThreeBarSimpleHat_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsStart\ThreeBarSimpleHat\ThreeBarSimpleHat		308931
+	199947134	FootRattle_10	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_10_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_10		9822
+	225611178	DashSwirl_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashSwirl_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashSwirl\DashSwirl_02		15188
+	248629849	FootRattle_09	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_09_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_09		9857
+	261111805	FootRattle_06	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_06_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_06		8778
+	261360263	CooldownOver_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\CooldownOver_04_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashUncool\DashUncool\CooldownOver_04		21303
+	269129439	DeathGrunt_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DeathGrunt_04_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\DeathGrunts\DeathGrunt_04		14328
+	280703377	FootRattle_05	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_05_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_05		9813
+	282085368	NewBasssssss	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\NewBasssssss_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\New\Bass\NewBasssssss\NewBasssssss		353982
+	283056197	MouthWind_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\MouthWind_02_9F132F2F.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\WindBlend\MouthWind_02		745137
+	286810249	16BarBeat2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\16BarBeat2_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beat2\16BarBeat2\16BarBeat2		811238
+	299003409	FootRattle_08	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_08_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_08		8467
+	314638672	VentHit_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_02_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_02		53322
+	319432359	FluteAmb_05	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FluteAmb_05_32A0B821.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\Flutes\FluteAmb_05		350952
+	334814868	PipeRattle_05	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_05_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_05		53532
+	343282098	DeathGrunt_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DeathGrunt_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\DeathGrunts\DeathGrunt_01		8198
+	344386262	CooldownOver_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\CooldownOver_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashUncool\DashUncool\CooldownOver_03		24761
+	351122526	FallScream	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FallScream_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Fall\FallScream		26779
+	363871090	HumanoidHitPC_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\HumanoidHitPC_01_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\HumanoidHitPC_01		17637
+	373720796	Radiate_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_04_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_04		23829
+	378212670	UI_Select_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\UI_Select_01_32A0B821.wem		\Actor-Mixer Hierarchy\UI\UI_Select_01		6041
+	396532210	FootStep_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_01		6185
+	396968319	DeathGrunt_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DeathGrunt_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\DeathGrunts\DeathGrunt_02		14021
+	405245691	FootStep_06	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_06_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_06		5650
+	406581483	PipeRattle_06	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_06_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_06		53645
+	412703472	FootStep_12	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_12_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_12		6449
+	419355521	NewCalmBeat1	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\NewCalmBeat1_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntense\NewCalmBeat1\NewCalmBeat1		426873
+	427601425	CooldownOver_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\CooldownOver_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashUncool\DashUncool\CooldownOver_02		26614
+	427834511	FootRattle_11	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_11_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_11		8672
+	458543221	Melodi	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Melodi_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Pingermucis\Melodi\Melodi		656329
+	459483209	FootStep_14	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_14_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_14		6798
+	478313817	DashSwirlyli_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashSwirlyli_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashSwirl2\DashSwirlyli_02		8922
+	483743850	VentHit_05	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_05_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_05		36785
+	489056844	PipeRattle_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_04_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_04		60203
+	490039016	Grunt_06	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Grunt_06_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\Grunts\Grunt_06		13721
+	492388101	FootRattle_12	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_12_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_12		8516
+	510864419	DashPipe_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashPipe_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashPipe\DashPipe_01		11042
+	557655837	MouthWind_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\MouthWind_01_9F132F2F.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\WindBlend\MouthWind_01		1462110
+	578631917	FootStep_10	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_10_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_10		6480
+	584040848	SlideLoop_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\SlideLoop_02_9F132F2F.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Sliding\SlideLoop_02		14167
+	598973640	FootStep_09	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_09_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_09		6680
+	599041593	DashSwirl_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashSwirl_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashSwirl\DashSwirl_03		15755
+	606289397	FluteAmb_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FluteAmb_03_32A0B821.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\Flutes\FluteAmb_03		328843
+	628454829	FootStep_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_04_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_04		5623
+	633560826	DronePLacehoLDEr	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DronePLacehoLDEr_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\TrashDrone\DronePLacehoLDEr\DronePLacehoLDEr		3346217
+	639032088	Radiate_07	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_07_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_07		24061
+	659495786	Radiate_05	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_05_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_05		37061
+	666937032	DeathGrunt_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DeathGrunt_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\DeathGrunts\DeathGrunt_03		5859
+	675159911	DashSwirlyli_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashSwirlyli_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashSwirl2\DashSwirlyli_03		12442
+	681854934	Runplaceholder	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Runplaceholder_9F132F2F.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Runplaceholder		225740
+	687466041	FootStep_11	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_11_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_11		5994
+	710076068	DashSwirlyli_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashSwirlyli_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashSwirl2\DashSwirlyli_01		12271
+	718911144	GoodHit_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\GoodHit_01_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\GoodHit_01		30516
+	725757526	FluteAmb_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FluteAmb_02_32A0B821.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\Flutes\FluteAmb_02		385732
+	734814858	FootStep_08	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_08_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_08		7134
+	734867289	Radiate_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_02_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_02		31790
+	743025809	Grunt_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Grunt_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\Grunts\Grunt_03		18392
+	757000106	MouthWind_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\MouthWind_03_9F132F2F.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\WindBlend\MouthWind_03		891703
+	769073162	PipeRattle_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_03_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_03		62408
+	771999153	Grunt_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Grunt_04_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\Grunts\Grunt_04		18618
+	775343429	FluteAmb_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FluteAmb_04_32A0B821.wem		\Actor-Mixer Hierarchy\Ambience\AmbienceMix\Flutes\FluteAmb_04		410103
+	792434983	SlideLoop_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\SlideLoop_03_9F132F2F.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Sliding\SlideLoop_03		16713
+	799040413	CooldownOver_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\CooldownOver_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashUncool\DashUncool\CooldownOver_01		24187
+	831092031	PipeRattle_07	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_07_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_07		53099
+	834897999	NewIntenseBeat1	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\NewIntenseBeat1_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntenser\NewIntenseBeat1\NewIntenseBeat1		440323
+	836164005	FootRattle_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_02		9427
+	858333934	VentHit_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_03_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_03		55282
+	861130625	NewCalmBeat2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\NewCalmBeat2_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntense\NewCalmBeat2\NewCalmBeat2		426832
+	865403475	Radiate_06	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Radiate_06_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\RadiatorHit\Radiate_06		24315
+	881954957	DashSwirl_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashSwirl_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashSwirl\DashSwirl_01		16784
+	890714625	NewIntroBeat	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\NewIntroBeat_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsStart\NewIntroBeat\NewIntroBeat		199973
+	905546332	PipeRattle_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PipeRattle_02_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\Rattle\PipeRattle_02		60916
+	908114478	FootRattle_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_03		8948
+	946976637	plantDead	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\plantDead_32A0B821.wem		\Actor-Mixer Hierarchy\Default Work Unit\plantDead		32022
+	947768029	VentHit_04	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_04_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_04		54915
+	949392818	FootStep_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_03		5893
+	961476253	VentHit_07	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_07_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_07		54281
+	972298806	Grunt_02	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\Grunt_02_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Grunts\Grunts\Grunt_02		20795
+	992243382	DashPipe_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashPipe_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashPipe\DashPipe_03		13180
+	1004127604	DashRattle_03	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashRattle_03_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashRattle\DashRattle_03		19993
+	1022102426	NewIntenseBeat2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\NewIntenseBeat2_9F132F2F.wem		\Interactive Music Hierarchy\MusicWorkUnit\Beats\BeatsIntenser\NewIntenseBeat2\NewIntenseBeat2		446478
+	1039658552	DashWhooshPlaceholder	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\DashWhooshPlaceholder_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\Dash\DashMixdown\DashWhooshPlaceholder		9031
+	1048413976	FootRattle_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootRattle_01_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\FootStepRattle\FootRattle_01		10743
+	1049903775	FootStep_13	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\FootStep_13_32A0B821.wem		\Actor-Mixer Hierarchy\PlayerCharacter\RunMix\Footstep\FootStep_13		6901
+	1065397013	VentHit_01	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\VentHit_01_32A0B821.wem		\Actor-Mixer Hierarchy\Pipes\Hits\Pipehitter\VentHit\VentHit_01		45781
+

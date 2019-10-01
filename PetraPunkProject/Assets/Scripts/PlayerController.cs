@@ -121,70 +121,79 @@ public class PlayerController : MonoBehaviour
     {
         graphics.position = graphicTargetPos + Vector3.down;
 
-        if (!fallAndDie || !standAndDie)
-        { 
+        
 
-        progress = transform.position.z;
+            if (!standAndDie)
+            {
 
-        if (hitCooldown < invulnerableSecs)
-        {
-            hitCooldown += Time.deltaTime;
-        }
+                progress = transform.position.z;
 
-        if (!isDashing)
-        {
-            input = SteeringInput.Value;
-            input += Input.GetAxis("Horizontal");
-        }
+                if (hitCooldown < invulnerableSecs)
+                {
+                    hitCooldown += Time.deltaTime;
+                }
+
+                if (!isDashing)
+                {
+                    input = SteeringInput.Value;
+                    input += Input.GetAxis("Horizontal");
+                }
+                else
+                    input = 0;
+
+                limitMovementInput();
+
+                Move();
+
+
+                if (dashCooldownActiveVar.Value == false)
+                {
+
+                    //if (Input.GetKeyDown(KeyCode.Q))
+                    //{
+                    //    dashCooldownActiveVar.Value = true;
+                    //    swipe4Dash.Value = -1;
+                    //}
+                    //else if (Input.GetKeyDown(KeyCode.E))
+                    //{
+                    //    dashCooldownActiveVar.Value = true;
+                    //    swipe4Dash.Value = 1;
+                    //}
+
+                    //if (swipe4Dash.Value != 0)
+                    //{
+                    //    Dash(swipe4Dash.Value);
+                    //    dashCooldownActiveVar.Value = true;
+
+                    //    swipe4Dash.Value = 0;
+                    //}
+                }
+
+
+                //ApplyDashMovement();
+
+                ApplyJump();
+
+                if (falling && height < 1f)
+                {
+                    print(height);
+                    height = 0;
+                    inAir = false;
+                }
+                lastPosition = currentPosition;
+                currentPosition = transform.position;
+            }
+            else if (fallAndDie)
+            {
+            print("fallen");
+                FallAndDie();
+            }
         else
-            input = 0;
-
-        limitMovementInput();
-
-        Move();
-
-
-        if (dashCooldownActiveVar.Value == false)
         {
- 
-            //if (Input.GetKeyDown(KeyCode.Q))
-            //{
-            //    dashCooldownActiveVar.Value = true;
-            //    swipe4Dash.Value = -1;
-            //}
-            //else if (Input.GetKeyDown(KeyCode.E))
-            //{
-            //    dashCooldownActiveVar.Value = true;
-            //    swipe4Dash.Value = 1;
-            //}
-
-            //if (swipe4Dash.Value != 0)
-            //{
-            //    Dash(swipe4Dash.Value);
-            //    dashCooldownActiveVar.Value = true;
-
-            //    swipe4Dash.Value = 0;
-            //}
+            print("I AM DEAD MUTTHAFUKKA");
         }
-
-
-        //ApplyDashMovement();
-
-        ApplyJump();
-
-        if (falling && height < 1f)
-        {
-            print(height);
-            height = 0;
-            inAir = false;
-        }
-            lastPosition = currentPosition;
-            currentPosition = transform.position;
-    }
-        else if(fallAndDie)
-        {
-            FallAndDie();
-        }
+        
+        
         
 
 
@@ -310,6 +319,7 @@ public class PlayerController : MonoBehaviour
                 PitfallAudioEvent.Raise();
 
                 fallAndDie = true;
+                standAndDie = true;
 
                 deathCamPos= hit.collider.GetComponent<PitFall>().CamPosition;
             }
@@ -343,6 +353,7 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetTrigger("Die");
         standAndDie = true;
+        
     }
 
     public void GetHit(Vector3 direction)
@@ -565,6 +576,7 @@ public class PlayerController : MonoBehaviour
         fallSpeed += 9.8f*Time.deltaTime;
 
 
+        graphics.transform.position = transform.position;
 
         transform.Translate(( currentPosition -lastPosition) );
         transform.Translate(Vector3.down *Time.deltaTime* fallSpeed);
