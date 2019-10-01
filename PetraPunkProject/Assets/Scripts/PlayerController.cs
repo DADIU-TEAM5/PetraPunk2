@@ -34,6 +34,12 @@ public class PlayerController : MonoBehaviour
 
     [Header("Other stuff")]
 
+    Vector3 graphicTargetPos;
+    public Transform graphics;
+
+    Vector3 colliderDampVelocity = Vector3.zero;
+    float colliderDampSpeed = 0.1f;
+
     public Animator anim;
 
 
@@ -108,10 +114,13 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
+
+    
     void Update()
     {
+        graphics.position = graphicTargetPos + Vector3.down;
 
-        if(!fallAndDie)
+        if (!fallAndDie)
         { 
 
         progress = transform.position.z;
@@ -267,6 +276,8 @@ public class PlayerController : MonoBehaviour
         {
 
             //print(inAir);
+            
+
 
             if (inAir && hit.point.y > colliderAndGraphics.position.y)
             {
@@ -276,7 +287,7 @@ public class PlayerController : MonoBehaviour
 
             if (!inAir)
             {
-                colliderAndGraphics.position = hit.point + (Vector3.up * height) + Vector3.up;
+                graphicTargetPos = hit.point + (Vector3.up * height) + Vector3.up;
                 airHitPoint = hit.point;
             }
             else
@@ -284,7 +295,7 @@ public class PlayerController : MonoBehaviour
                 airHitPoint.x = transform.position.x;
                 airHitPoint.z = transform.position.z;
 
-                colliderAndGraphics.position = airHitPoint + (Vector3.up * height) + Vector3.up;
+                graphicTargetPos = airHitPoint + (Vector3.up * height) + Vector3.up;
             }
 
             
@@ -297,7 +308,12 @@ public class PlayerController : MonoBehaviour
                 deathCamPos= hit.collider.GetComponent<PitFall>().CamPosition;
             }
 
+            graphicTargetPos = new Vector3(transform.position.x, graphicTargetPos.y, transform.position.z);
 
+            //colliderAndGraphics.position = Vector3.SmoothDamp(colliderAndGraphics.position, graphicTargetPos, ref colliderDampVelocity, colliderDampSpeed);
+            //colliderAndGraphics.GetComponent<Rigidbody>().position = Vector3.SmoothDamp(colliderAndGraphics.position, graphicTargetPos, ref colliderDampVelocity, colliderDampSpeed);
+            colliderAndGraphics.position = graphicTargetPos;
+            
             
 
             //groundHeight = (hit.point + Vector3.up).y;

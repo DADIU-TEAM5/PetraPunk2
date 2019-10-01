@@ -21,6 +21,10 @@ public class PlayerCollisionInfo : MonoBehaviour
 
     public float radiusOfSphere = 5;
 
+    private void Start()
+    {
+       // GetComponent<Rigidbody>().interpolation = RigidbodyInterpolation.Interpolate;
+    }
     private void Update()
     {
         float closesDistanceToObstacle = float.MaxValue;
