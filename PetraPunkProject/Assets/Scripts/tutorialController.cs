@@ -19,6 +19,7 @@ public class tutorialController : MonoBehaviour
     public Animator animator;
     public Animator newAnimator;
 
+    private bool fellToDeath = false;
 
 
     // Use Enum or int instead
@@ -137,15 +138,33 @@ public class tutorialController : MonoBehaviour
     // Could be changed to reset to specifik part of tutorial
     public void reloadLevel()
     {
-        StartCoroutine(load());
+        fellToDeath = true;
+        StartCoroutine(loadThis());
         
     }
 
-    IEnumerator load()
+    public void storyFailed()
     {
-        Debug.Log("Has Won: " + hasWon.Value);
+
+        StartCoroutine(loadEnd());
+
+    }
+
+
+    IEnumerator loadThis()
+    {
+        yield return new WaitForSeconds(1);
+        Scene current = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(current.name);
+    }
+
+    IEnumerator loadEnd()
+    {
+        if (!fellToDeath)
+        {
         yield return new WaitForSeconds(2);
-        //Scene current = SceneManager.GetActiveScene();
         SceneManager.LoadScene("EndScene");
+
+        }
     }
 }
