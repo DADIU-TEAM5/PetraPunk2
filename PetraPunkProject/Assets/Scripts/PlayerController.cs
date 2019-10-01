@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Other stuff")]
 
+    public Transform DeathCam;
+
     bool standAndDie;
     Vector3 graphicTargetPos;
     public Transform graphics;
@@ -353,6 +355,8 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetTrigger("Die");
         standAndDie = true;
+
+        camScript.MoveToDeathCam(DeathCam);
         
     }
 
