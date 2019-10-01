@@ -10,6 +10,7 @@ public class LifeManager : MonoBehaviour
     public Text lifeDisplay;
     public GameEvent death;
     public GameEvent deathAudio;
+    public Object CreditsScene;
 
     public int NumberOfLifes;
 
@@ -36,8 +37,8 @@ public class LifeManager : MonoBehaviour
         }
     }
 
-    public void LoadHighscore()
+    public void LoadCredits()
     {
-        SceneManager.LoadScene("EndScene");
+        SceneManager.LoadScene(CreditsScene.name, LoadSceneMode.Additive);
     }
 }
