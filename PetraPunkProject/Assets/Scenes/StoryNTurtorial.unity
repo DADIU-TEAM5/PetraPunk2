@@ -259,12 +259,12 @@ PrefabInstance:
     - target: {fileID: 3265209158602939413, guid: 08dd7f483736b7844aab410438c02c56,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3265209158602939413, guid: 08dd7f483736b7844aab410438c02c56,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08dd7f483736b7844aab410438c02c56, type: 3}
@@ -407,6 +407,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52716503f19d912499740e3bcc5cbb68, type: 3}
+--- !u!1 &729556109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8430847298059590636, guid: 0f323aeca5e37c847a19bb5a26c0c8ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 829513195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &806049185
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +596,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 829513195}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 729556109}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20f6a119ad198ae4395069697a38d209, type: 3}
@@ -950,6 +956,7 @@ MonoBehaviour:
   player: {fileID: 307748678}
   phoneUI: {fileID: 35218931}
   newPhoneUI: {fileID: 1671087439}
+  fadeObject: {fileID: 729556109}
   health: {fileID: 11400000, guid: dd3d9fceb36089a4793206c162c1d688, type: 2}
   tutorialGenerator: {fileID: 11400000, guid: 16452c3343d86c243bdacf6d4ec96a7b, type: 2}
   animator: {fileID: 35218933}
@@ -1043,10 +1050,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbfa45642fe0d1f44b35d8d46d99e57e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 4f800320a374d1a40bda01a521c41b52, type: 2}
+  Event: {fileID: 11400000, guid: 1fb18f87e29194e42a9dcfd1f3044404, type: 2}
   Response:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1745643301}
+        m_MethodName: reloadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1866258356
 GameObject:
   m_ObjectHideFlags: 0
