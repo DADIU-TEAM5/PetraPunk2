@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextVariations:
   - Locale: {fileID: 11400000, guid: 9b0abef6734cdfe43a272e84d7a7a297, type: 2}
-    Text: options
+    Text: settings
   - Locale: {fileID: 11400000, guid: a4b0af4ac68974346a5e787c33bae9cf, type: 2}
     Text: indstillinger
   CurrentLocale: {fileID: 11400000, guid: 02485ca4caa29fa41bef0fe99c72e112, type: 2}

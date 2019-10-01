@@ -12,6 +12,8 @@ public class PlayerCollisionInfo : MonoBehaviour
     public GameEvent jumpEvent;
     public GameEvent playerCollisionEvent;
 
+    public GameEvent AudioOnPickup;
+
     public float slowDownRate = 0.2F;
     private bool isSlowingDown = false;
     public int TimeUp = 10;
@@ -73,6 +75,7 @@ public class PlayerCollisionInfo : MonoBehaviour
         if (collision.gameObject.CompareTag("Collectible"))
         {
             specialPoints.Value += 1;
+            AudioOnPickup?.Raise();
             Destroy(collision.gameObject);
         }
 

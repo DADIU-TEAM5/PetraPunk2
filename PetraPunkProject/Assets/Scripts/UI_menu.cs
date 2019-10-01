@@ -43,7 +43,7 @@ public class UI_menu : MonoBehaviour
         menuOpenClick = menuOpenAudio;
         menuCloseClick = menuCloseAudio;
 
-        if (hasCompletedStory)
+        if (hasCompletedStory.Value == true)
         {
             endlessBt.GetComponent<Button>().enabled = true;
             endlessBtText.GetComponent<Text>().color = new Color(255,255,255);

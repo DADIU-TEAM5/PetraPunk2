@@ -8,6 +8,8 @@ MonoImporter:
   - scoreTextObject: {instanceID: 0}
   - scoreCanvas: {instanceID: 0}
   - inGameScore: {fileID: 11400000, guid: ed6c6a7d060b10b49873ccc5370a52ed, type: 2}
+  - collectiblesScore: {fileID: 11400000, guid: af8849b4076b2e143b425c7d8a878316,
+      type: 2}
   - playerName: {fileID: 11400000, guid: 0a3400fc97f31cc48a4b46cedaf56ba3, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
