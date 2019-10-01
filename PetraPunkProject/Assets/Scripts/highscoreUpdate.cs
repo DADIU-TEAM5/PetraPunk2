@@ -15,6 +15,10 @@ public class highscoreUpdate : MonoBehaviour
     private string scoreTextTemp;
     private GameObject highscoreText;
     private bool highscoreLoaded = false;
+    public bool showNames;
+    public bool showScores;
+    private string scorePoints;
+    private string scoreName;
 
     public FloatVariable inGameScore;
     public StringVariable playerName;
@@ -37,7 +41,24 @@ public class highscoreUpdate : MonoBehaviour
 
             size--;
 
-            scoreTextTemp = pos + "\t" + highscore.names[size].ToString() + "\t" + highscore.scores[size].ToString() + "\n" + scoreTextTemp;
+            if (showNames)
+            {
+                scoreName = highscore.names[size].ToString() + "\t";
+            }
+            else
+            {
+                scoreName = "";
+            }
+
+            if (showScores)
+            {
+                scorePoints = highscore.scores[size].ToString() + "\n";
+            } else
+            {
+                scorePoints = "";
+            }
+
+            scoreTextTemp = pos + "\t" + scoreName + scorePoints + scoreTextTemp;
 
         }
 
