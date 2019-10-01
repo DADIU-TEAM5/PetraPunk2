@@ -2,29 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class tutorialController : MonoBehaviour
 {
     public LevelGenerator lg;
     public GameObject player;
     public GameObject phoneUI;
- 
+    public GameObject newPhoneUI;
+    public GameObject fadeObject;
+
     public FloatVariable health;
     public SceneGenrator tutorialGenerator;
 
     public Animator animator;
+    public Animator newAnimator;
 
 
 
     // Use Enum or int instead
-    private bool isTurningRight = true;
+    private bool isTurningRight = false;
     private bool isTurningLeft = false;
     private bool isDashing = false;
     private bool isJumping = false;
     private bool isFinal = false;
     private int dashCount;
 
-    public float animationSpeed;
+    public float animationSpeed ;
     public float maxTurn;
     public float dodgeTime = 10;
 
@@ -34,6 +38,7 @@ public class tutorialController : MonoBehaviour
 
     private void Awake()
     {
+        fadeObject.SetActive(false);
         nextSegment.Segment = tutorialSegments[0];
         tutorialGenerator.SegementDifficulty[0] = 100;
         tutorialGenerator.SegementDifficulty[1] = 100;
@@ -45,6 +50,7 @@ public class tutorialController : MonoBehaviour
     void Start()
     {
         animator.speed = animationSpeed;
+        //newAnimator.speed = animationSpeed;
         health.Value = 99;
         
     }
@@ -54,11 +60,12 @@ public class tutorialController : MonoBehaviour
     {
 
         // Part 1 - start turning left - Automatic
-        //if(player.transform.position.x!=0 && !isTurningRight)
-        //{
-        //    isTurningRight = true;
-        //    animator.SetBool("startTutorial", true);
-        //}
+        if (player.transform.position.x != 0 && !isTurningRight)
+        {
+            isTurningRight = true;
+            animator.SetBool("startTutorial", true);
+            newAnimator.SetBool("startTutorial", true);
+        }
 
         // Part 2 - start turning right
         if (player.transform.position.x > maxTurn && isTurningRight)
@@ -67,6 +74,7 @@ public class tutorialController : MonoBehaviour
             isTurningRight = false;
             isTurningLeft = true;
             animator.SetBool("turnedRight", true);
+            newAnimator.SetBool("turnedRight", true);
         }
 
         // Part 3 - start dodging pipes
@@ -76,6 +84,7 @@ public class tutorialController : MonoBehaviour
             isTurningLeft = false;
            
             Destroy(phoneUI);
+            Destroy(newPhoneUI);
             nextSegment.Segment = tutorialSegments[2];
             StartCoroutine(timeToJump());
         }
@@ -92,6 +101,9 @@ public class tutorialController : MonoBehaviour
         if (isFinal)
         {
             //Debug.Log("Final part initiated");
+           
+            // Amazing fix
+            fadeObject.SetActive(true);
         }
 
     }
@@ -120,4 +132,17 @@ public class tutorialController : MonoBehaviour
 
     }
 
+    // Could be changed to reset to specifik part of tutorial
+    public void reloadLevel()
+    {
+        StartCoroutine(load());
+        
+    }
+
+    IEnumerator load()
+    {
+        yield return new WaitForSeconds(2);
+        Scene current = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(current.name);
+    }
 }
