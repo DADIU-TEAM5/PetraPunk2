@@ -302,7 +302,7 @@ MonoBehaviour:
   Heart1: {fileID: 3236899203370391902}
   Heart2: {fileID: 9215318017160716041}
   Heart3: {fileID: 6119009248936764617}
-  GrayHeart: {fileID: 21300000, guid: 556aa86986294594e81aa6f00c711095, type: 3}
+  GrayHeart: {fileID: 21300000, guid: 0a5c01c3d1c83cd419c6bf9cf21af33d, type: 3}
   RedHeart: {fileID: 21300000, guid: 37b3fb97028465a4caf7ed3b3ba7ffb2, type: 3}
   NumberOfLifes: 3
 --- !u!114 &7984584494837175570
