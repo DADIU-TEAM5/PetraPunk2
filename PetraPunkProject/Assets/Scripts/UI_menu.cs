@@ -8,6 +8,12 @@ public class UI_menu : MonoBehaviour
 {
     public LocaleVariable CurrentLocale;
 
+    public Object storyScene;
+    public Object endlessScene;
+    public Button endlessBt;
+    public Text endlessBtText;
+    public BoolVariable hasCompletedStory;
+
     public GameObject soundButton;
     public GameObject languageButton;
     public GameEvent languageChange;
@@ -36,6 +42,13 @@ public class UI_menu : MonoBehaviour
         btClick = buttonClickAudio;
         menuOpenClick = menuOpenAudio;
         menuCloseClick = menuCloseAudio;
+
+        if (hasCompletedStory)
+        {
+            endlessBt.GetComponent<Button>().enabled = true;
+            endlessBtText.GetComponent<Text>().color = new Color(255,255,255);
+        }
+        
     }
 
     public void mainMenuSelection(int screen)
@@ -55,7 +68,7 @@ public class UI_menu : MonoBehaviour
                 Debug.Log("new game");
                 btClick.Raise();
                 startNewLevelAudio.Raise();
-                SceneManager.LoadScene(2);
+               // SceneManager.LoadScene(2);
                 break;
         }
     }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckWinLose : MonoBehaviour
 {
     public BoolVariable hasWon;
+    public BoolVariable hasCompletedStory;
     public GameObject UI_loseScene;
     public GameObject UI_winScene;
     
@@ -15,6 +16,7 @@ public class CheckWinLose : MonoBehaviour
         if(hasWon.Value)
         {
             UI_winScene.SetActive(true);
+            hasCompletedStory.Value = true;
         } else
         {
             UI_loseScene.SetActive(true);
