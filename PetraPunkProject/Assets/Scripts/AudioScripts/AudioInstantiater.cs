@@ -22,5 +22,7 @@ public class AudioInstantiater : MonoBehaviour
 
             AudioObjects[i] = ao;
         }
+
+        Instance = this;
     }
 }
