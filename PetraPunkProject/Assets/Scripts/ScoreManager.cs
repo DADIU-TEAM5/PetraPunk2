@@ -38,7 +38,6 @@ public class ScoreManager : MonoBehaviour
         Score.Value *= ScoreMultiplier;
         ScoreDisplay.text = startString + (int) Score.Value;
 
-        SpecialPointsDisplay.text = startSpecialPointsString + SpecialPoints.Value;
-
+        SpecialPointsDisplay.text = $"{startSpecialPointsString} {SpecialPoints.Value}";
     }
 }

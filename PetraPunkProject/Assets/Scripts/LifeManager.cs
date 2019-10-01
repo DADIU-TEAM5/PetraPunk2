@@ -12,6 +12,11 @@ public class LifeManager : MonoBehaviour
     public GameEvent deathAudio;
     public Object CreditsScene;
 
+    public Image Heart1, Heart2, Heart3;
+
+    public Sprite GrayHeart;
+    public Sprite RedHeart;
+
     public int NumberOfLifes;
 
     string startString;
@@ -26,7 +31,8 @@ public class LifeManager : MonoBehaviour
     void Update()
     {
 
-        lifeDisplay.text = startString + Lifes.Value;
+        UpdateHearts();
+        //lifeDisplay.text = startString + Lifes.Value;
 
         if(Lifes.Value <= 0)
         {
@@ -34,6 +40,25 @@ public class LifeManager : MonoBehaviour
 
             death.Raise();
             deathAudio.Raise();
+        }
+    }
+    void UpdateHearts() {
+        if (Lifes.Value == 0) {
+            Heart1.sprite = GrayHeart;
+            Heart2.sprite = GrayHeart;
+            Heart3.sprite = GrayHeart;
+        } else if (Lifes.Value == 1) {
+            Heart1.sprite = RedHeart;
+            Heart2.sprite = GrayHeart;
+            Heart3.sprite = GrayHeart;
+        } else if (Lifes.Value == 2) {
+            Heart1.sprite = RedHeart;
+            Heart2.sprite = RedHeart;
+            Heart3.sprite = GrayHeart;
+        } else if (Lifes.Value == 3) {
+            Heart1.sprite = RedHeart;
+            Heart2.sprite = RedHeart;
+            Heart3.sprite = RedHeart;
         }
     }
 
