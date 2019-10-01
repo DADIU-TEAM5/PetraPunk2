@@ -15,7 +15,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3015288684	PipeHit			\Obstacles\PipeHit	
 	3686556480	Slide			\PlayerCharacter\Movement\Slide	
 	3831688773	PlayerHit			\PlayerCharacter\PlayerHit	
-	3845772187	MusicDron2			\MusicEvents\MusicDron2	
 	4149105284	Jumppad			\PlayerCharacter\Movement\Jumppad	
 	4195921398	MusicTest			\MusicEvents\MusicTest	
 
