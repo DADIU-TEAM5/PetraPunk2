@@ -303,6 +303,7 @@ MonoBehaviour:
   Heart3: {fileID: 6119009248936764617}
   GrayHeart: {fileID: 21300000, guid: 556aa86986294594e81aa6f00c711095, type: 3}
   RedHeart: {fileID: 21300000, guid: 37b3fb97028465a4caf7ed3b3ba7ffb2, type: 3}
+  CreditsScene: {fileID: 0}
   NumberOfLifes: 3
 --- !u!114 &7984584494837175570
 MonoBehaviour:
@@ -320,8 +321,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4512068902882869909}
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 5630647284942667377}
+        m_MethodName: UpdateHighscore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -332,7 +333,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 5630647284942667377}
-        m_MethodName: UpdateHighscore
+        m_MethodName: ShowHighscore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -355,12 +356,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highscore: {fileID: 11400000, guid: fdbe211b4a38a174a99f208c3b95bd04, type: 2}
-  scoreTextObject: {fileID: 0}
+  scoreTextObject: {fileID: 1818250314165139860, guid: 84aaf562eaec37c4b9251e149ec31ced,
+    type: 3}
   offsetY: 0
-  scoreTextHeight: 0
-  scoreCanvas: {fileID: 0}
+  scoreTextHeight: 125
+  scoreCanvas: {fileID: 4512068903311151449}
   showNames: 0
-  showScores: 0
+  showScores: 1
   inGameScore: {fileID: 11400000, guid: ed6c6a7d060b10b49873ccc5370a52ed, type: 2}
   playerName: {fileID: 11400000, guid: 0a3400fc97f31cc48a4b46cedaf56ba3, type: 2}
   Heart1: {fileID: 0}

@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Obstacle
+  - Slope
+  - Jump
+  - PitFall
+  - StorySlowdown
+  - Timer
+  - UI_mainMenu
+  - UI_optionsMenu
+  - Collectible
+  - TimeUp
   layers:
   - Default
   - TransparentFX
