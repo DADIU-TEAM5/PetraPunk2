@@ -81,7 +81,7 @@ Material:
     - HARD_SHADING: 1
     - Vector1_962926F1: 1.1
     - _AlphaClip: 0
-    - _BacklightAmount: 2.3
+    - _BacklightAmount: 2.5
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
