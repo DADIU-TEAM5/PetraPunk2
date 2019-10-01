@@ -18,9 +18,11 @@ public class highscoreUpdate : MonoBehaviour
     public bool showNames;
     public bool showScores;
     private string scorePoints;
+    private string scoreCollectibles;
     private string scoreName;
 
     public FloatVariable inGameScore;
+    public IntVariable collectiblesScore;
     public StringVariable playerName;
 
 
@@ -57,8 +59,9 @@ public class highscoreUpdate : MonoBehaviour
             {
                 scorePoints = "";
             }
+            scoreCollectibles = highscore.collectibles[size].ToString() + "\t";
 
-            scoreTextTemp = pos + "\t" + scoreName + scorePoints + scoreTextTemp;
+            scoreTextTemp = pos + "\t" + scoreName + scorePoints + scoreCollectibles + scoreTextTemp;
         }
 
         if(!highscoreLoaded)
@@ -89,11 +92,13 @@ public class highscoreUpdate : MonoBehaviour
             {
                 highscore.names[size] = highscore.names[size-1];
                 highscore.scores[size] = highscore.scores[size-1];
+                highscore.collectibles[size] = highscore.collectibles[size - 1];
 
                 size--;
             }
             highscore.names[index] = playerName.Value;
             highscore.scores[index] = (int)inGameScore.Value;
+            highscore.collectibles[index] = (int)collectiblesScore.Value;
         }
     }
 
