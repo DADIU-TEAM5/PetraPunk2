@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 4512068903373436209}
   - component: {fileID: 4512068903373436208}
   - component: {fileID: 4512068903373436211}
+  - component: {fileID: 1659058884}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -393,10 +394,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8212b5fb95a3a4449845b5026cff8747, type: 3}
-    m_FontSize: 80
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 0
+    m_MinSize: 1
     m_MaxSize: 150
     m_Alignment: 2
     m_AlignByGeometry: 0
@@ -405,6 +406,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Score: '
+--- !u!114 &1659058884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4512068903373436210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3dc42f668dd79641b0f9506fad016ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnSlope: {fileID: 11400000, guid: 3da2b309edfa17e4685c78d542409058, type: 2}
 --- !u!1001 &6345917308099819291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -536,11 +550,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9109660044238148942, guid: 074fca7a7028fec45a7d67e02055a558,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8331643657372566235, guid: 074fca7a7028fec45a7d67e02055a558,
         type: 3}
