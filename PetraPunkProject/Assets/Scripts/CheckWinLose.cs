@@ -18,6 +18,11 @@ public class CheckWinLose : MonoBehaviour
         {
             UI_winScene.SetActive(true);
             hasCompletedStory.Value = true;
+
+            SaveLoadManager.saveData.StoryModeCompleted = 1;
+
+            SaveLoadManager.SaveData();
+
         } else
         {
             UI_loseScene.SetActive(true);

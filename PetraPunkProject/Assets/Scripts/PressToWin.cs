@@ -15,7 +15,7 @@ public class PressToWin : MonoBehaviour
 
     private void Start()
     {
-        saveData = saveLoadManager.LoadData();
+       // saveData = saveLoadManager.LoadData();
         
 
     }
@@ -33,7 +33,7 @@ public class PressToWin : MonoBehaviour
     {
         saveData.StoryModeCompleted = 1;
         
-        saveLoadManager.SaveData(saveData);
+       // saveLoadManager.SaveData(saveData);
     }
 
 }
