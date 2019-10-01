@@ -25,12 +25,13 @@
 				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\PlayerCharacter\Movement\Dash" DurationType="OneShot" DurationMin="0.572032" DurationMax="0.986647"/>
 				<Event Id="2404675871" Name="DashUncool" ObjectPath="\Events\PlayerCharacter\Movement\DashUncool" DurationType="OneShot" DurationMin="0.804555" DurationMax="1.276603"/>
 				<Event Id="779278001" Name="Death" ObjectPath="\Events\UI and Event\Death" DurationType="OneShot" DurationMin="0.243832" DurationMax="0.675964"/>
-				<Event Id="2385628217" Name="FootstepL" ObjectPath="\Events\PlayerCharacter\Movement\Footsteps\FootstepL" DurationType="OneShot" DurationMin="0.242585" DurationMax="0.293651"/>
+				<Event Id="2385628217" Name="FootstepL" ObjectPath="\Events\PlayerCharacter\Movement\Footsteps\FootstepL" DurationType="OneShot" DurationMin="0.228838" DurationMax="0.311292"/>
 				<Event Id="2886188696" Name="FootStepLoopPlaceholder" ObjectPath="\Events\PlayerCharacter\Movement\FootStepLoopPlaceholder" DurationType="Infinite"/>
 				<Event Id="2385628199" Name="FootstepR" ObjectPath="\Events\PlayerCharacter\Movement\Footsteps\FootstepR" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4149105284" Name="Jumppad" ObjectPath="\Events\PlayerCharacter\Movement\Jumppad" DurationType="OneShot" DurationMin="0.804555" DurationMax="1.276603"/>
 				<Event Id="506989395" Name="MusicDron" ObjectPath="\Events\MusicEvents\MusicDron" DurationType="Infinite"/>
 				<Event Id="4195921398" Name="MusicTest" ObjectPath="\Events\MusicEvents\MusicTest" DurationType="Infinite"/>
+				<Event Id="3978245845" Name="PickUp" ObjectPath="\Events\UI and Event\PickUp" DurationType="OneShot" DurationMin="1.555760" DurationMax="1.555760"/>
 				<Event Id="3015288684" Name="PipeHit" ObjectPath="\Events\Obstacles\PipeHit" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.076922" DurationMax="3.055603"/>
 				<Event Id="1805963995" Name="PitFall" ObjectPath="\Events\PlayerCharacter\PitFall" DurationType="OneShot" DurationMin="1.547392" DurationMax="1.547392"/>
 				<Event Id="3831688773" Name="PlayerHit" ObjectPath="\Events\PlayerCharacter\PlayerHit" DurationType="OneShot" DurationMin="0.712200" DurationMax="1.043515"/>
@@ -93,10 +94,6 @@
 					<ShortName>DashRattle_01.wav</ShortName>
 					<Path>SFX\DashRattle_01_32A0B821.wem</Path>
 				</File>
-				<File Id="111472166" Language="SFX">
-					<ShortName>SlideLoop_01.wav</ShortName>
-					<Path>SFX\SlideLoop_01_9F132F2F.wem</Path>
-				</File>
 				<File Id="116876840" Language="SFX">
 					<ShortName>FootRattle_04.wav</ShortName>
 					<Path>SFX\FootRattle_04_32A0B821.wem</Path>
@@ -104,6 +101,10 @@
 				<File Id="129329223" Language="SFX">
 					<ShortName>FootRattle_07.wav</ShortName>
 					<Path>SFX\FootRattle_07_32A0B821.wem</Path>
+				</File>
+				<File Id="155681279" Language="SFX">
+					<ShortName>NewSlide_01.wav</ShortName>
+					<Path>SFX\NewSlide_01_9F132F2F.wem</Path>
 				</File>
 				<File Id="168634302" Language="SFX">
 					<ShortName>FootStep_05.wav</ShortName>
@@ -165,6 +166,10 @@
 					<ShortName>FootRattle_08.wav</ShortName>
 					<Path>SFX\FootRattle_08_32A0B821.wem</Path>
 				</File>
+				<File Id="303488747" Language="SFX">
+					<ShortName>pickupTone_Whoomb_01.wav</ShortName>
+					<Path>SFX\pickupTone_Whoomb_01_32A0B821.wem</Path>
+				</File>
 				<File Id="314638672" Language="SFX">
 					<ShortName>VentHit_02.wav</ShortName>
 					<Path>SFX\VentHit_02_32A0B821.wem</Path>
@@ -217,6 +222,10 @@
 					<ShortName>PipeRattle_06.wav</ShortName>
 					<Path>SFX\PipeRattle_06_32A0B821.wem</Path>
 				</File>
+				<File Id="410100850" Language="SFX">
+					<ShortName>pickupTone_02.wav</ShortName>
+					<Path>SFX\pickupTone_02_32A0B821.wem</Path>
+				</File>
 				<File Id="412703472" Language="SFX">
 					<ShortName>FootStep_12.wav</ShortName>
 					<Path>SFX\FootStep_12_32A0B821.wem</Path>
@@ -245,6 +254,10 @@
 					<ShortName>DashSwirlyli_02.wav</ShortName>
 					<Path>SFX\DashSwirlyli_02_32A0B821.wem</Path>
 				</File>
+				<File Id="481537045" Language="SFX">
+					<ShortName>NewSlide_02.wav</ShortName>
+					<Path>SFX\NewSlide_02_9F132F2F.wem</Path>
+				</File>
 				<File Id="483743850" Language="SFX">
 					<ShortName>VentHit_05.wav</ShortName>
 					<Path>SFX\VentHit_05_32A0B821.wem</Path>
@@ -265,6 +278,10 @@
 					<ShortName>DashPipe_01.wav</ShortName>
 					<Path>SFX\DashPipe_01_32A0B821.wem</Path>
 				</File>
+				<File Id="546858743" Language="SFX">
+					<ShortName>pickupRattle.wav</ShortName>
+					<Path>SFX\pickupRattle_32A0B821.wem</Path>
+				</File>
 				<File Id="557655837" Language="SFX">
 					<ShortName>MouthWind_01.wav</ShortName>
 					<Path>SFX\MouthWind_01_9F132F2F.wem</Path>
@@ -273,9 +290,13 @@
 					<ShortName>FootStep_10.wav</ShortName>
 					<Path>SFX\FootStep_10_32A0B821.wem</Path>
 				</File>
-				<File Id="584040848" Language="SFX">
-					<ShortName>SlideLoop_02.wav</ShortName>
-					<Path>SFX\SlideLoop_02_9F132F2F.wem</Path>
+				<File Id="581785487" Language="SFX">
+					<ShortName>NewSlide_03.wav</ShortName>
+					<Path>SFX\NewSlide_03_9F132F2F.wem</Path>
+				</File>
+				<File Id="591291361" Language="SFX">
+					<ShortName>pickupTone_05.wav</ShortName>
+					<Path>SFX\pickupTone_05_32A0B821.wem</Path>
 				</File>
 				<File Id="598973640" Language="SFX">
 					<ShortName>FootStep_09.wav</ShortName>
@@ -333,6 +354,10 @@
 					<ShortName>FluteAmb_02.wav</ShortName>
 					<Path>SFX\FluteAmb_02_32A0B821.wem</Path>
 				</File>
+				<File Id="733835236" Language="SFX">
+					<ShortName>pickupTone_04.wav</ShortName>
+					<Path>SFX\pickupTone_04_32A0B821.wem</Path>
+				</File>
 				<File Id="734814858" Language="SFX">
 					<ShortName>FootStep_08.wav</ShortName>
 					<Path>SFX\FootStep_08_32A0B821.wem</Path>
@@ -361,10 +386,6 @@
 					<ShortName>FluteAmb_04.wav</ShortName>
 					<Path>SFX\FluteAmb_04_32A0B821.wem</Path>
 				</File>
-				<File Id="792434983" Language="SFX">
-					<ShortName>SlideLoop_03.wav</ShortName>
-					<Path>SFX\SlideLoop_03_9F132F2F.wem</Path>
-				</File>
 				<File Id="799040413" Language="SFX">
 					<ShortName>CooldownOver_01.wav</ShortName>
 					<Path>SFX\CooldownOver_01_32A0B821.wem</Path>
@@ -381,6 +402,10 @@
 					<ShortName>FootRattle_02.wav</ShortName>
 					<Path>SFX\FootRattle_02_32A0B821.wem</Path>
 				</File>
+				<File Id="841951638" Language="SFX">
+					<ShortName>pickupTone_06.wav</ShortName>
+					<Path>SFX\pickupTone_06_32A0B821.wem</Path>
+				</File>
 				<File Id="858333934" Language="SFX">
 					<ShortName>VentHit_03.wav</ShortName>
 					<Path>SFX\VentHit_03_32A0B821.wem</Path>
@@ -392,6 +417,14 @@
 				<File Id="865403475" Language="SFX">
 					<ShortName>Radiate_06.wav</ShortName>
 					<Path>SFX\Radiate_06_32A0B821.wem</Path>
+				</File>
+				<File Id="867659479" Language="SFX">
+					<ShortName>pickupTone_01.wav</ShortName>
+					<Path>SFX\pickupTone_01_32A0B821.wem</Path>
+				</File>
+				<File Id="877401360" Language="SFX">
+					<ShortName>pickupTone_03.wav</ShortName>
+					<Path>SFX\pickupTone_03_32A0B821.wem</Path>
 				</File>
 				<File Id="881954957" Language="SFX">
 					<ShortName>DashSwirl_01.wav</ShortName>
@@ -452,6 +485,10 @@
 				<File Id="1049903775" Language="SFX">
 					<ShortName>FootStep_13.wav</ShortName>
 					<Path>SFX\FootStep_13_32A0B821.wem</Path>
+				</File>
+				<File Id="1059597349" Language="SFX">
+					<ShortName>Craxy.wav</ShortName>
+					<Path>SFX\Craxy_9F132F2F.wem</Path>
 				</File>
 				<File Id="1065397013" Language="SFX">
 					<ShortName>VentHit_01.wav</ShortName>
