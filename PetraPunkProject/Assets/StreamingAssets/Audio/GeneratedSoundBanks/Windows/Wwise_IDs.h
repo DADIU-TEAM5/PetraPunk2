@@ -49,6 +49,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCETOOBSTACLE = 3353550816U;
+        static const AkUniqueID IMPACTSIDECHAIN = 1396822601U;
         static const AkUniqueID INCALMZONE = 2480792759U;
         static const AkUniqueID INMENU = 3374585465U;
         static const AkUniqueID JUMPPASSTEST = 3861168114U;
@@ -57,6 +58,7 @@ namespace AK
         static const AkUniqueID PLAYERONSLOPE = 3899915506U;
         static const AkUniqueID PLAYERSPEED = 1493153371U;
         static const AkUniqueID SFXLEVEL = 1873490184U;
+        static const AkUniqueID WHOOSHSIDECHAIN = 3806265449U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -80,6 +82,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID IMPORTANTEVENTSBUS = 2566220412U;
         static const AkUniqueID REVERBMAIN = 1320542602U;
     } // namespace AUX_BUSSES
 
