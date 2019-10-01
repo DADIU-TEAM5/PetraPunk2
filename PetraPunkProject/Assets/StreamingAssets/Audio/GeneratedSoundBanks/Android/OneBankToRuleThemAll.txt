@@ -33,6 +33,7 @@ Modulator LFO	ID	Name			Wwise Object Path	Notes
 	720429667	TimeMaybe			\Default Work Unit\TimeMaybe	
 
 Effect plug-ins	ID	Name	Type				Notes
+	605721330	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	933393503	Wwise_Gain_(Custom)	Wwise Gain			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes

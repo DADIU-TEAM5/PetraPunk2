@@ -535,6 +535,70 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 301257938415058051, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_Text
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 301257938415058051, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: d1dac5e9e99dc2e45be6201b45d178fb,
+        type: 3}
+    - target: {fileID: 301257938415058051, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564879433046493909, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_Text
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 2564879433046493909, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: d1dac5e9e99dc2e45be6201b45d178fb,
+        type: 3}
+    - target: {fileID: 2564879433046493909, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283277578292520813, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_Text
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283277578292520813, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: d1dac5e9e99dc2e45be6201b45d178fb,
+        type: 3}
+    - target: {fileID: 8283277578292520813, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062473615730621346, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_Text
+      value: Next
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062473615730621346, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: d1dac5e9e99dc2e45be6201b45d178fb,
+        type: 3}
+    - target: {fileID: 8062473615730621346, guid: c0430bfb41c56384a857f74e48cd2ad8,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0430bfb41c56384a857f74e48cd2ad8, type: 3}
 --- !u!1 &779306562 stripped
