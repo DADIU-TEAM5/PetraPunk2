@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d06a4775ad99c03468ed0b83fb9c4229, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -629,11 +629,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1553956523945939895, guid: c2bc7a12cb8ef134cacb7e8770d41f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Settings
-      objectReference: {fileID: 0}
     - target: {fileID: 1553956523945939892, guid: c2bc7a12cb8ef134cacb7e8770d41f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -688,6 +683,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553956523945939895, guid: c2bc7a12cb8ef134cacb7e8770d41f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Settings
       objectReference: {fileID: 0}
     - target: {fileID: 1553956523945939894, guid: c2bc7a12cb8ef134cacb7e8770d41f5b,
         type: 3}
@@ -857,6 +857,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: DashCD
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
+        type: 3}
+      propertyPath: OnSlope
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612853149198441982, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
       propertyPath: m_Name
@@ -915,16 +925,6 @@ PrefabInstance:
     - target: {fileID: 4612853149198441980, guid: 59b232afd2bc9c44d9372467360cfa7e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: DashCD
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3790281797879785047, guid: 59b232afd2bc9c44d9372467360cfa7e,
-        type: 3}
-      propertyPath: OnSlope
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612853147910741474, guid: 59b232afd2bc9c44d9372467360cfa7e,

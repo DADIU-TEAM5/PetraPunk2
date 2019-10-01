@@ -13,8 +13,6 @@ public class ScoreManager : MonoBehaviour
 
     public float ScoreMultiplier;
 
-
-
     string startString;
     string startSpecialPointsString;
 
