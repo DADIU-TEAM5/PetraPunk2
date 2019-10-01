@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 0}
-  speedLines: {fileID: 0}
+  speedLines: {fileID: 1416550885556719384}
 --- !u!1001 &4081689355499694439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,6 +233,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dea1ed3f513fe34f9d7a69fbaae1969, type: 3}
+--- !u!1 &1416550885556719384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102288901118813823, guid: 9dea1ed3f513fe34f9d7a69fbaae1969,
+    type: 3}
+  m_PrefabInstance: {fileID: 4081689355499694439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1416550885556719387 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3102288901118813820, guid: 9dea1ed3f513fe34f9d7a69fbaae1969,
