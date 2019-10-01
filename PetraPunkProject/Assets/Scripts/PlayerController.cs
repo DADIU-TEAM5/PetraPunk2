@@ -356,6 +356,8 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Die");
         standAndDie = true;
 
+
+        if(!fallAndDie)
         camScript.MoveToDeathCam(DeathCam);
         
     }
