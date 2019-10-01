@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: highscore
   m_EditorClassIdentifier: Assembly-CSharp::highScoreVariable
   names:
-  - player1
-  - player2
-  - player3
-  - player4
-  - player5
-  scores: 88130000a00f0000b80b0000d0070000e8030000
+  - player
+  - player
+  - player
+  - player
+  - player
+  scores: 0000000000000000000000000000000000000000
