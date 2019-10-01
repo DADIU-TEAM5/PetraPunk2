@@ -26,7 +26,7 @@ public class highscoreUpdate : MonoBehaviour
 
     private void OnEnable()
     {
-        ShowHighscore();
+        //ShowHighscore();
     }
 
     public void ShowHighscore()
