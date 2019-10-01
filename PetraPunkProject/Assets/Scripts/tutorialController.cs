@@ -8,7 +8,7 @@ public class tutorialController : MonoBehaviour
     public LevelGenerator lg;
     public GameObject player;
     public GameObject phoneUI;
-    public Text dashText;
+ 
     public FloatVariable health;
     public SceneGenrator tutorialGenerator;
 
@@ -34,7 +34,6 @@ public class tutorialController : MonoBehaviour
 
     private void Awake()
     {
-        dashText.enabled = false;
         nextSegment.Segment = tutorialSegments[0];
         tutorialGenerator.SegementDifficulty[0] = 100;
         tutorialGenerator.SegementDifficulty[1] = 100;
@@ -81,29 +80,8 @@ public class tutorialController : MonoBehaviour
             StartCoroutine(timeToJump());
         }
 
-        //// Part 4 - Start Dashing
-        //if (isDashing)
-        //{
-        //    //Debug.Log("We Dashin");
-        //    if (!dashText.enabled)
-        //    {
-        //        dashCount = 0;
-        //        //Debug.Log("Dash Text On");
-        //        dashText.enabled = true;
-        //    }
 
-        //    if (dashCount >= 3)
-        //    {
-        //        //Debug.Log("Tutorial is Done");
-        //        dashText.enabled = false;
-        //        isDashing = false;
-        //        isJumping = true;
-
-        //    }
-
-        //}
-
-        // Part 5 - Start Jumping
+        // Part 4 - Start Jumping
         if (isJumping)
         {
             //Debug.Log("We Jumping");
@@ -126,12 +104,6 @@ public class tutorialController : MonoBehaviour
         isJumping = true;
     }
 
-    public void IncreaseDashCount()
-    {
-        dashCount++;
-        //Debug.Log("Dash Count: " + dashCount);
-    }
-
     public void JumpDone()
     {
         //Debug.Log("Jump is has been completed");
@@ -144,7 +116,6 @@ public class tutorialController : MonoBehaviour
         tutorialGenerator.SegementDifficulty[1] = 1;
         tutorialGenerator.SegementDifficulty[2] = 1;
         tutorialGenerator.SegementDifficulty[3] = 666;
-        //tutorialGenerator.Level
 
 
     }
