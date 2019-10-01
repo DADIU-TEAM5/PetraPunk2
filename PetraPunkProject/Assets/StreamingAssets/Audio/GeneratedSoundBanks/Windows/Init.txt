@@ -10,7 +10,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2480792759	InCalmZone			\Default Work Unit\Music\InCalmZone	
 	3806265449	WhooshSideChain			\Default Work Unit\WhooshSideChain	
 	3861168114	JumpPassTest			\Default Work Unit\JumpPassTest	
-	3899915506	PlayerOnSlope			\Default Work Unit\PlayerOnSlope	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFXBus\Ambience	
@@ -33,6 +32,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	483199865	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	702543456	Tunnel1	Wwise Matrix Reverb			
 	740858314	Wwise Meter (Custom)	Wwise Meter			
+	801351604	Wwise_Compressor_(Custom)	Wwise Compressor			
 	807524202	Wwise_Gain_(Custom)	Wwise Gain			
 	819134163	Tunnel1_(Custom)	Wwise Matrix Reverb			
 	848629617	Wwise_Compressor_(Custom)	Wwise Compressor			
@@ -40,6 +40,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	925888834	Wwise_Meter_(Custom)	Wwise Meter			
 	983798872	Wwise_Meter_(Custom)	Wwise Meter			
 	1055070446	SidechainMeter	Wwise Meter			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
 	2849147824	Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

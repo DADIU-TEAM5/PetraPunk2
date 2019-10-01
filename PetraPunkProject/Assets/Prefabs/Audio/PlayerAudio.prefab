@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2049854249853009584}
   - component: {fileID: 3883506729099418115}
   - component: {fileID: 1337812485069572793}
+  - component: {fileID: 4927382528387716786}
   m_Layer: 0
   m_Name: PlayerAudio
   m_TagString: Untagged
@@ -82,10 +83,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5696d80e978525c4681f725fbd9b39b7,
       type: 2}
-  Breath:
+  ScarabPickUp:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4dd072fc288a86249abc22df5612b00b,
+      type: 2}
   WhooshSound:
     idInternal: 0
     valueGuidInternal: 
@@ -196,6 +198,33 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5646478929301649342}
         m_MethodName: PitfallEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4927382528387716786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692005850503962713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfa45642fe0d1f44b35d8d46d99e57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 0dfa53b593809ec47b4596e34e406416, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5646478929301649342}
+        m_MethodName: PlayerPickedUpScarab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -11,6 +11,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
     public AK.Wwise.Event FootstepAudio;
     public AK.Wwise.Event Pitfall;
     public AK.Wwise.Event Collision;
+    public AK.Wwise.Event ScarabPickUp;
     //public AK.Wwise.Event Grunt;
 
 
@@ -51,7 +52,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
         if (OnSlope.Value == true)
         {
             AkSoundEngine.SetRTPCValue("PlayerOnSlope", 1);
-            SeeOnSlope = true;
+            SeeOnSlope = true;  
         }
         else
         {
@@ -93,6 +94,10 @@ public class AudioPlayerSoundManager : MonoBehaviour
         Collision.Post(this.gameObject);
     }
 
+    public void PlayerPickedUpScarab()
+    {
+        ScarabPickUp.Post(this.gameObject);
+    }
 
 
 
