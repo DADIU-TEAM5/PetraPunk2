@@ -298,6 +298,8 @@ MonoBehaviour:
   offsetY: -250
   scoreTextHeight: 125
   scoreCanvas: {fileID: 2380499647356804794}
+  showNames: 0
+  showScores: 1
   inGameScore: {fileID: 11400000, guid: ed6c6a7d060b10b49873ccc5370a52ed, type: 2}
   playerName: {fileID: 11400000, guid: 0a3400fc97f31cc48a4b46cedaf56ba3, type: 2}
 --- !u!1 &2391508667564658540
@@ -653,17 +655,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1890893942084948774, guid: 84eb3474e4e8ac74f890f7b2b11480df,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 744474617560193504, guid: 84eb3474e4e8ac74f890f7b2b11480df,
         type: 3}
       propertyPath: GameText
       value: 
       objectReference: {fileID: 11400000, guid: c849737f7a9da8f48b429109f738e740,
         type: 2}
-    - target: {fileID: 1890893942084948774, guid: 84eb3474e4e8ac74f890f7b2b11480df,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84eb3474e4e8ac74f890f7b2b11480df, type: 3}
 --- !u!224 &7648086531110408226 stripped
