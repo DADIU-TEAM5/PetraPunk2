@@ -260,6 +260,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentLocale: {fileID: 0}
+  storyScene: {fileID: 0}
+  endlessScene: {fileID: 0}
+  endlessBt: {fileID: 0}
+  endlessBtText: {fileID: 0}
+  hasCompletedStory: {fileID: 0}
   soundButton: {fileID: 0}
   languageButton: {fileID: 0}
   languageChange: {fileID: 0}
@@ -290,6 +295,7 @@ MonoBehaviour:
   showNames: 0
   showScores: 1
   inGameScore: {fileID: 11400000, guid: ed6c6a7d060b10b49873ccc5370a52ed, type: 2}
+  collectiblesScore: {fileID: 11400000, guid: af8849b4076b2e143b425c7d8a878316, type: 2}
   playerName: {fileID: 11400000, guid: 0a3400fc97f31cc48a4b46cedaf56ba3, type: 2}
 --- !u!1 &2391508667564658540
 GameObject:
@@ -529,16 +535,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8177714551426767823}
     m_Modifications:
-    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
-        type: 3}
-      propertyPath: m_Name
-      value: GameText (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2403992707009775716, guid: 84eb3474e4e8ac74f890f7b2b11480df,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -644,10 +640,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1890893942084948774, guid: 84eb3474e4e8ac74f890f7b2b11480df,
+    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
         type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
+      propertyPath: m_Name
+      value: GameText (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818250314165139860, guid: 84eb3474e4e8ac74f890f7b2b11480df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 744474617560193504, guid: 84eb3474e4e8ac74f890f7b2b11480df,
         type: 3}
@@ -655,6 +656,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c849737f7a9da8f48b429109f738e740,
         type: 2}
+    - target: {fileID: 1890893942084948774, guid: 84eb3474e4e8ac74f890f7b2b11480df,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84eb3474e4e8ac74f890f7b2b11480df, type: 3}
 --- !u!224 &7648086531110408226 stripped
@@ -670,11 +676,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2380499647356804795}
     m_Modifications:
-    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
-        type: 3}
-      propertyPath: m_Name
-      value: title
-      objectReference: {fileID: 0}
     - target: {fileID: 4570447313553020136, guid: 38e3444bcd3ba1541b21117c4dec9a73,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -779,6 +780,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570447313553020137, guid: 38e3444bcd3ba1541b21117c4dec9a73,
+        type: 3}
+      propertyPath: m_Name
+      value: title
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38e3444bcd3ba1541b21117c4dec9a73, type: 3}

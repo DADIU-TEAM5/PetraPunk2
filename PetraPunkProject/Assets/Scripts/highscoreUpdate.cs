@@ -61,7 +61,7 @@ public class highscoreUpdate : MonoBehaviour
             }
             scoreCollectibles = highscore.collectibles[size].ToString() + "\t";
 
-            scoreTextTemp = pos + "\t" + scoreName + scorePoints + scoreCollectibles + scoreTextTemp;
+            scoreTextTemp = "<b>" + pos + "</b>" + "\t" + scoreName + scoreCollectibles + scorePoints + scoreTextTemp;
         }
 
         if(!highscoreLoaded)
