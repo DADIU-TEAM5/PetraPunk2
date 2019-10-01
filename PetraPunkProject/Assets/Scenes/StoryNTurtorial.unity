@@ -1098,7 +1098,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1745643301}
-        m_MethodName: reloadLevel
+        m_MethodName: storyFailed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
