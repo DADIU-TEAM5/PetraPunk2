@@ -188,10 +188,14 @@ public class PlayerController : MonoBehaviour
             else if (fallAndDie)
             {
             print("fallen");
-                FallAndDie();
+            Speed = 0;
+            OnSlope = false;
+            FallAndDie();
             }
         else
         {
+            Speed = 0;
+            OnSlope = false;
             print("I AM DEAD MUTTHAFUKKA");
         }
         
@@ -204,14 +208,12 @@ public class PlayerController : MonoBehaviour
        // print("Anim value"+ ((Speed - MinSpeed) / (SlopeSpeed - MinSpeed)));
         anim.SetFloat("Blend", (Speed - MinSpeed) / (SlopeSpeed - MinSpeed));
 
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            anim.SetTrigger("Die");
-        }
+        
         
 
         //audio setup
         audioSlope.Value = OnSlope;
+
         playerSpeed.Value = Speed;
         gyroTilt.Value = input;
     }
