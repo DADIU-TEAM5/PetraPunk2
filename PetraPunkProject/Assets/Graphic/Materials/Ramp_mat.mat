@@ -55,6 +55,6 @@ Material:
     - _Smoothness: 0.4
     m_Colors:
     - Color_5E3954A4: {r: 0.6226415, g: 0.4086493, b: 0.24377, a: 1}
-    - _Color: {r: 0.7075472, g: 0.5612705, b: 0.39716092, a: 0}
+    - _Color: {r: 0.7075471, g: 0.5612704, b: 0.3971609, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _TextureTiling: {r: 1, g: 1, b: 0, a: 0}
