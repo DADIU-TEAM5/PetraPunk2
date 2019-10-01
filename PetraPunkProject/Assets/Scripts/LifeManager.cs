@@ -10,7 +10,7 @@ public class LifeManager : MonoBehaviour
     public Text lifeDisplay;
     public GameEvent death;
     public GameEvent deathAudio;
-    public Object CreditsScene;
+    public string CreditsScene;
 
     public Image Heart1, Heart2, Heart3;
 
@@ -77,7 +77,7 @@ public class LifeManager : MonoBehaviour
 
     public void LoadCredits()
     {
-        SceneManager.LoadScene(CreditsScene.name);
+        SceneManager.LoadScene(CreditsScene);
     }
 
     
