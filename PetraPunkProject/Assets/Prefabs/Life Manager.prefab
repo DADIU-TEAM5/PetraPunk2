@@ -298,12 +298,12 @@ MonoBehaviour:
   lifeDisplay: {fileID: 4512068903373436211}
   death: {fileID: 11400000, guid: 4f800320a374d1a40bda01a521c41b52, type: 2}
   deathAudio: {fileID: 11400000, guid: 0879480d1ac96f848b5eae3312d1ffe3, type: 2}
+  CreditsScene: {fileID: 102900000, guid: 561eeee46c282d3418f4a7e2812ee640, type: 3}
   Heart1: {fileID: 3236899203370391902}
   Heart2: {fileID: 9215318017160716041}
   Heart3: {fileID: 6119009248936764617}
   GrayHeart: {fileID: 21300000, guid: 556aa86986294594e81aa6f00c711095, type: 3}
   RedHeart: {fileID: 21300000, guid: 37b3fb97028465a4caf7ed3b3ba7ffb2, type: 3}
-  CreditsScene: {fileID: 0}
   NumberOfLifes: 3
 --- !u!114 &7984584494837175570
 MonoBehaviour:
@@ -365,11 +365,6 @@ MonoBehaviour:
   showScores: 1
   inGameScore: {fileID: 11400000, guid: ed6c6a7d060b10b49873ccc5370a52ed, type: 2}
   playerName: {fileID: 11400000, guid: 0a3400fc97f31cc48a4b46cedaf56ba3, type: 2}
-  Heart1: {fileID: 0}
-  Heart2: {fileID: 0}
-  Heart3: {fileID: 0}
-  GrayHeart: {fileID: 0}
-  RedHeart: {fileID: 0}
 --- !u!1 &4512068903311151445
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,6 +44,11 @@ public class LifeManager : MonoBehaviour
 
             isDead = true;
         }
+
+        if (Lifes.Value <= 0 && isDead == true && Input.GetMouseButton(0))
+        {
+            LoadCredits();
+        }
     }
     void UpdateHearts() {
         if (Lifes.Value == 0) {
@@ -67,6 +72,8 @@ public class LifeManager : MonoBehaviour
 
     public void LoadCredits()
     {
-        SceneManager.LoadScene(CreditsScene.name, LoadSceneMode.Additive);
+        SceneManager.LoadScene(CreditsScene.name);
     }
+
+    
 }

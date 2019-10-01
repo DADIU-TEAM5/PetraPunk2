@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckWinLose : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class CheckWinLose : MonoBehaviour
     void Start()
     {
         Debug.Log("EndScene Has Won: " + hasWon.Value);
-        if(hasWon.Value)
+        if(hasWon.Value == true)
         {
             UI_winScene.SetActive(true);
             hasCompletedStory.Value = true;
