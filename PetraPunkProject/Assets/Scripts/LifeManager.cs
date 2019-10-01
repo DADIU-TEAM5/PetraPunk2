@@ -18,7 +18,8 @@ public class LifeManager : MonoBehaviour
     public Sprite RedHeart;
 
     public int NumberOfLifes;
-    private bool isDead = false;
+
+    private bool raisedDeath = false;
 
     string startString;
     // Start is called before the first frame update
@@ -35,20 +36,24 @@ public class LifeManager : MonoBehaviour
         UpdateHearts();
         //lifeDisplay.text = startString + Lifes.Value;
 
-        if (Lifes.Value <= 0 && isDead == false)
+        if (Lifes.Value <= 0)
         {
             print("game Over");
-
-            death.Raise();
-            deathAudio.Raise();
-
-            isDead = true;
+            
+            if (!raisedDeath) {
+                deathAudio.Raise();
+                death.Raise();
+                raisedDeath = true;
+            }
+        } else {
+            raisedDeath = false;
         }
 
-        if (Lifes.Value <= 0 && isDead == true && Input.GetMouseButton(0))
+        if (Lifes.Value <= 0 && raisedDeath == true && Input.GetMouseButton(0))
         {
             LoadCredits();
         }
+
     }
     void UpdateHearts() {
         if (Lifes.Value == 0) {
