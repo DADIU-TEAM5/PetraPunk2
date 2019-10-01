@@ -141,16 +141,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7645256052771208382}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d1eac44024bcb5041832f4c6832994d0,
-        type: 3}
-      propertyPath: m_Name
-      value: Ramp_animated
-      objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: d1eac44024bcb5041832f4c6832994d0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c6e27216b8f54c24992126929104fdea, type: 2}
     - target: {fileID: -4216859302048453862, guid: d1eac44024bcb5041832f4c6832994d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -221,11 +211,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.41475585
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d1eac44024bcb5041832f4c6832994d0,
+        type: 3}
+      propertyPath: m_Name
+      value: Ramp_animated
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: d1eac44024bcb5041832f4c6832994d0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c6e27216b8f54c24992126929104fdea, type: 2}
     - target: {fileID: 5331787022432466322, guid: d1eac44024bcb5041832f4c6832994d0,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e43ad2935652e140a97ac526d0ae191, type: 2}
+      objectReference: {fileID: 2100000, guid: 54d2fa4cdfa9a3449924b6714a1d7e95, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1eac44024bcb5041832f4c6832994d0, type: 3}
 --- !u!4 &506938433592648624 stripped
