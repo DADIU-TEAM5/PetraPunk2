@@ -36,8 +36,8 @@ public class LifeManager : MonoBehaviour
         }
     }
 
-    public void LoadScene()
+    public void LoadHighscore()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("EndScene");
     }
 }
