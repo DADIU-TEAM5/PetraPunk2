@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -498,6 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasWon: {fileID: 11400000, guid: 32d48feb22f55bf418619f733b12ea54, type: 2}
+  hasCompletedStory: {fileID: 11400000, guid: 46659bb54e730a0439f52c06a22193fd, type: 2}
   UI_loseScene: {fileID: 6609779597070347291}
   UI_winScene: {fileID: 1274891476}
 --- !u!1 &1252770497

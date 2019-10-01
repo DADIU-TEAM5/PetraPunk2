@@ -43,7 +43,11 @@ public class LifeManager : MonoBehaviour
         }
     }
     void UpdateHearts() {
-        if (Lifes.Value == 1) {
+        if (Lifes.Value == 0) {
+            Heart1.sprite = GrayHeart;
+            Heart2.sprite = GrayHeart;
+            Heart3.sprite = GrayHeart;
+        } else if (Lifes.Value == 1) {
             Heart1.sprite = RedHeart;
             Heart2.sprite = GrayHeart;
             Heart3.sprite = GrayHeart;
