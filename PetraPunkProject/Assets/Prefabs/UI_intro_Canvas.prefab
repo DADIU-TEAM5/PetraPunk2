@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 376272485174130539}
   - component: {fileID: 5250511710226238266}
   - component: {fileID: 2133043476399765418}
-  - component: {fileID: 7673233232782610049}
+  - component: {fileID: 2495170049157994586}
   m_Layer: 5
   m_Name: Bt_intro05
   m_TagString: Untagged
@@ -118,19 +118,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 376272485174130539}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7673233232782610049}
-        m_MethodName: SceneLoad
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!95 &2133043476399765418
 Animator:
   serializedVersion: 3
@@ -150,7 +138,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7673233232782610049
+--- !u!114 &2495170049157994586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71, type: 3}
+  selectedSceneName: StoryNTurtorial
 --- !u!1 &3721131295561156078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71, type: 3}
+  selectedSceneName: 
 --- !u!1 &9010754269164867316
 GameObject:
   m_ObjectHideFlags: 0

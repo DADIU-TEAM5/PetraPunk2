@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 0d9d17c413b11ed44908058ad66618d1, type: 3}
+  selectedSceneName: EndlessLevel
 --- !u!1 &3355849025493196691
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,20 +706,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3355849025493196684}
-        m_MethodName: mainMenuSelection
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2250507885010131993}
         m_MethodName: SceneLoad
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -740,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 3074f58b3798a2c47a844d3b4d395c71, type: 3}
+  selectedSceneName: 
 --- !u!1 &3355849026226673533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea445c6fc0489474a8d7f692fef85875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedScene: {fileID: 102900000, guid: 561eeee46c282d3418f4a7e2812ee640, type: 3}
+  selectedSceneName: 
 --- !u!1 &7813470463558621327
 GameObject:
   m_ObjectHideFlags: 0
