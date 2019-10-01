@@ -11,7 +11,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
     public AK.Wwise.Event FootstepAudio;
     public AK.Wwise.Event Pitfall;
     public AK.Wwise.Event Collision;
-    public AK.Wwise.Event Breath;
+    //public AK.Wwise.Event Grunt;
 
 
     public AK.Wwise.Event WhooshSound;
@@ -37,7 +37,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
         yield return new WaitForSeconds(0.01f);
         WhooshSound.Post(this.gameObject);
         SlideLoop.Post(this.gameObject);
-        Breath.Post(this.gameObject);
+        //Breath.Post(this.gameObject);
     }
 
     void Update()
@@ -61,7 +61,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
 
     }
 
-
+    
     public void FootstepEvent()
     {
         FootstepAudio.Post(this.gameObject);
