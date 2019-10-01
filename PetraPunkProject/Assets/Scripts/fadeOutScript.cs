@@ -27,7 +27,7 @@ public class fadeOutScript : MonoBehaviour
 
             if(screenImage.color.a >= 1.2)
             {
-                SceneManager.LoadScene("EndlessLevel");
+                SceneManager.LoadScene("EndScene");
             }
            
         }   
