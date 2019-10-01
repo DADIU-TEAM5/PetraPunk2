@@ -6,7 +6,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
 {
     public AK.Wwise.Event Dash;
     public AK.Wwise.Event Uncool;
-    public AK.Wwise.Event PlaceholderRun;
+    public AK.Wwise.Event SlideLoop;
     public AK.Wwise.Event JumpPad;
     public AK.Wwise.Event FootstepAudio;
     public AK.Wwise.Event Pitfall;
@@ -36,7 +36,7 @@ public class AudioPlayerSoundManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.01f);
         WhooshSound.Post(this.gameObject);
-        PlaceholderRun.Post(this.gameObject);
+        SlideLoop.Post(this.gameObject);
         Breath.Post(this.gameObject);
     }
 
