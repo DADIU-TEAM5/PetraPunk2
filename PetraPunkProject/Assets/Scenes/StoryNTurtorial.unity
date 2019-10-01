@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -407,6 +407,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52716503f19d912499740e3bcc5cbb68, type: 3}
+--- !u!1 &729556109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8430847298059590636, guid: 0f323aeca5e37c847a19bb5a26c0c8ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 829513195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &806049185
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +596,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 829513195}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 729556109}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20f6a119ad198ae4395069697a38d209, type: 3}
@@ -950,6 +956,7 @@ MonoBehaviour:
   player: {fileID: 307748678}
   phoneUI: {fileID: 35218931}
   newPhoneUI: {fileID: 1671087439}
+  fadeObject: {fileID: 729556109}
   health: {fileID: 11400000, guid: dd3d9fceb36089a4793206c162c1d688, type: 2}
   tutorialGenerator: {fileID: 11400000, guid: 16452c3343d86c243bdacf6d4ec96a7b, type: 2}
   animator: {fileID: 35218933}
