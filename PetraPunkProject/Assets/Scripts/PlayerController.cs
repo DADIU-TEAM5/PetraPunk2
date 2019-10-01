@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
     public FloatVariable dashCDtimer;
     float dashTime;
     Vector3 dashStartPos;
-    bool isDashing;
+    bool isDashing = false;
     float dashDirection;
     public IntVariable swipe4Dash;
     public GameEvent dashAudio;
@@ -135,28 +135,28 @@ public class PlayerController : MonoBehaviour
         if (dashCooldownActiveVar.Value == false)
         {
  
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                dashCooldownActiveVar.Value = true;
-                swipe4Dash.Value = -1;
-            }
-            else if (Input.GetKeyDown(KeyCode.E))
-            {
-                dashCooldownActiveVar.Value = true;
-                swipe4Dash.Value = 1;
-            }
+            //if (Input.GetKeyDown(KeyCode.Q))
+            //{
+            //    dashCooldownActiveVar.Value = true;
+            //    swipe4Dash.Value = -1;
+            //}
+            //else if (Input.GetKeyDown(KeyCode.E))
+            //{
+            //    dashCooldownActiveVar.Value = true;
+            //    swipe4Dash.Value = 1;
+            //}
 
-            if (swipe4Dash.Value != 0)
-            {
-                Dash(swipe4Dash.Value);
-                dashCooldownActiveVar.Value = true;
+            //if (swipe4Dash.Value != 0)
+            //{
+            //    Dash(swipe4Dash.Value);
+            //    dashCooldownActiveVar.Value = true;
 
-                swipe4Dash.Value = 0;
-            }
+            //    swipe4Dash.Value = 0;
+            //}
         }
 
 
-        ApplyDashMovement();
+        //ApplyDashMovement();
 
         ApplyJump();
 
@@ -186,12 +186,6 @@ public class PlayerController : MonoBehaviour
         audioSlope.Value = OnSlope;
         playerSpeed.Value = Speed;
         gyroTilt.Value = input;
-
-
-
-
-        
-
     }
 
     void limitMovementInput()
