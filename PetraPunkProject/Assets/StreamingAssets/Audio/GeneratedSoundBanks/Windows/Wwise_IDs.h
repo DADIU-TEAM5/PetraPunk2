@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID JUMPPAD = 4149105284U;
         static const AkUniqueID MUSICDRON = 506989395U;
         static const AkUniqueID MUSICTEST = 4195921398U;
+        static const AkUniqueID PICKUP = 3978245845U;
         static const AkUniqueID PIPEHIT = 3015288684U;
         static const AkUniqueID PITFALL = 1805963995U;
         static const AkUniqueID PLAYERHIT = 3831688773U;

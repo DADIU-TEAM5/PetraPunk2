@@ -514,6 +514,7 @@ MonoBehaviour:
   DashDuration: 0.12
   airMultiplier: 1
   airHorizontalSpeed: 15
+  OnSlopeSO: {fileID: 11400000, guid: 3da2b309edfa17e4685c78d542409058, type: 2}
   DeathCam: {fileID: 5502979718163459286}
   graphics: {fileID: 6276445611688705520}
   anim: {fileID: 800292097496267911}
