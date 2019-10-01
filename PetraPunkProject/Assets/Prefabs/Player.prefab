@@ -346,13 +346,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4612853149412508616}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d10d494f4ec5d1f4bb41ad626d704a07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gyrocontroller: {fileID: 11400000, guid: 0f59f93a03b2ad24c83f9e9a46900c92, type: 2}
-  angle: 45
+  angle: 15
 --- !u!114 &6037583692180970240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,13 +435,13 @@ MonoBehaviour:
   OffSlopeDecay: 40
   ObstacleSpeedLoss: 30
   MinSpeed: 15
-  HorizontalSpeed: 15
-  SlopeHorizontalSpeed: 15
+  HorizontalSpeed: 20
+  SlopeHorizontalSpeed: 20
   slopeMultiplier: 1.5
   invulnerableSecs: 1
-  DashLength: 8
-  DashCD: 10
-  DashDuration: 0.1
+  DashLength: 4.5
+  DashCD: 0
+  DashDuration: 0.12
   airMultiplier: 1
   airHorizontalSpeed: 15
   anim: {fileID: 800292097496267911}
@@ -449,6 +449,7 @@ MonoBehaviour:
   swipe4Dash: {fileID: 11400000, guid: 688b3084b3ae7e54ba392a1a8ee40de6, type: 2}
   dashAudio: {fileID: 11400000, guid: 398c6829b04ab9d4880aff2ecd6bb9b6, type: 2}
   cooldownOverAudio: {fileID: 11400000, guid: 3b0ceb7cd69c3d449ac41b94d29bbadb, type: 2}
+  PitfallAudioEvent: {fileID: 11400000, guid: 1fb18f87e29194e42a9dcfd1f3044404, type: 2}
   dashCooldownActiveVar: {fileID: 11400000, guid: 893d105e21f50244597f65a665838821,
     type: 2}
   camScript: {fileID: 162327509537404794}
@@ -720,6 +721,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939468492834736797, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 511b6345bc008ec41a68450da77ee0cd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce9bcb7c87664b42a3b1cc1c7717f15, type: 3}
 --- !u!1 &7007939529366917091 stripped
