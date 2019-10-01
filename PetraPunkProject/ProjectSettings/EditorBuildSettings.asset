@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScenes/Logic.unity
     guid: c475d3be13793cb4ca0b24072c20854e
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/EndScene.unity
+    guid: 5b45bb6079755414ea1a14ef98fa0678
   m_configObjects: {}
