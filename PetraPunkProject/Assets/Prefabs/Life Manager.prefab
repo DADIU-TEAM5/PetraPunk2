@@ -298,7 +298,7 @@ MonoBehaviour:
   lifeDisplay: {fileID: 4512068903373436211}
   death: {fileID: 11400000, guid: 4f800320a374d1a40bda01a521c41b52, type: 2}
   deathAudio: {fileID: 11400000, guid: 0879480d1ac96f848b5eae3312d1ffe3, type: 2}
-  CreditsScene: {fileID: 0}
+  CreditsScene: {fileID: 102900000, guid: 561eeee46c282d3418f4a7e2812ee640, type: 3}
   Heart1: {fileID: 3236899203370391902}
   Heart2: {fileID: 9215318017160716041}
   Heart3: {fileID: 6119009248936764617}

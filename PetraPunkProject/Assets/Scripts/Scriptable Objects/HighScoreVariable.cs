@@ -7,4 +7,5 @@ public class highScoreVariable : ScriptableObject
 {
     public string[] names;
     public int[] scores;
+    public int[] collectibles;
 }

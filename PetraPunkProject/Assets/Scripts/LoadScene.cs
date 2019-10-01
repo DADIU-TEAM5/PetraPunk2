@@ -7,9 +7,15 @@ public class LoadScene : MonoBehaviour
 {
     public Object selectedScene;
     
-    // Start is called before the first frame update
-    public void SceneLoad()
+    public void SceneLoad(Object scene)
     {
-        SceneManager.LoadScene(selectedScene.name);
+        if(selectedScene == null && scene != null)
+        {
+            SceneManager.LoadScene(scene.name);
+        }
+        else if (selectedScene != null)
+        {
+            SceneManager.LoadScene(selectedScene.name);
+        }
     }
 }

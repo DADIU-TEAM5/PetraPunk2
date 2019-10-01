@@ -36,7 +36,7 @@ public class LifeManager : MonoBehaviour
         UpdateHearts();
         //lifeDisplay.text = startString + Lifes.Value;
 
-        if(Lifes.Value <= 0)
+        if (Lifes.Value <= 0)
         {
             print("game Over");
             
@@ -48,6 +48,12 @@ public class LifeManager : MonoBehaviour
         } else {
             raisedDeath = false;
         }
+
+        if (Lifes.Value <= 0 && raisedDeath == true && Input.GetMouseButton(0))
+        {
+            LoadCredits();
+        }
+
     }
     void UpdateHearts() {
         if (Lifes.Value == 0) {
@@ -71,6 +77,8 @@ public class LifeManager : MonoBehaviour
 
     public void LoadCredits()
     {
-        SceneManager.LoadScene(CreditsScene.name, LoadSceneMode.Additive);
+        SceneManager.LoadScene(CreditsScene.name);
     }
+
+    
 }
