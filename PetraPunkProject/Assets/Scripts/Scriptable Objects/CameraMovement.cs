@@ -27,6 +27,9 @@ public class CameraMovement : MonoBehaviour
     public float ShakeTime;
 
 
+    Vector3 camVelocity = Vector3.zero;
+    float camDampingSpeed = 0.01f;
+
     float shakeDuration;
 
     float timeOnSlope ;
@@ -86,18 +89,20 @@ public class CameraMovement : MonoBehaviour
     }
     void MoveCamera()
     {
+        Vector3 targetPosition;
+
         if (UseSlopeAngle)
         {
             if (playerController.transform.position.x > 0)
             {
-                transform.position = Vector3.Lerp(PlayerGraphics.position + flatGoalPoistion, PlayerGraphics.position + slopeGoalPoistionRight + Vector3.back * slopeBackDistance, timeOnSlope);
+                targetPosition = Vector3.Lerp(PlayerGraphics.position + flatGoalPoistion, PlayerGraphics.position + slopeGoalPoistionRight + Vector3.back * slopeBackDistance, timeOnSlope);
 
 
                 transform.rotation = Quaternion.Lerp(flatGoalRotation, slopeGoalRotationRight, timeOnSlope);
             }
             else
             {
-                transform.position = Vector3.Lerp(PlayerGraphics.position + flatGoalPoistion, PlayerGraphics.position + slopeGoalPoistionLeft + Vector3.back * slopeBackDistance, timeOnSlope);
+                targetPosition = Vector3.Lerp(PlayerGraphics.position + flatGoalPoistion, PlayerGraphics.position + slopeGoalPoistionLeft + Vector3.back * slopeBackDistance, timeOnSlope);
 
 
                 transform.rotation = Quaternion.Lerp(flatGoalRotation, slopeGoalRotationLeft, timeOnSlope);
@@ -108,9 +113,13 @@ public class CameraMovement : MonoBehaviour
         }
         else
         {
-            transform.position = Vector3.Lerp(PlayerGraphics.position + flatGoalPoistion, PlayerGraphics.position + flatGoalPoistion + Vector3.back * slopeBackDistance, timeOnSlope);
+            targetPosition = Vector3.Lerp(PlayerGraphics.position + flatGoalPoistion, PlayerGraphics.position + flatGoalPoistion + Vector3.back * slopeBackDistance, timeOnSlope);
             transform.rotation = flatGoalRotation;
         }
+
+
+        //moveing the player
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref camVelocity, camDampingSpeed);
 
 
         if (playerController.OnSlope)
