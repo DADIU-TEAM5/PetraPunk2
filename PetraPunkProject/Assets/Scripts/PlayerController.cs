@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Other stuff")]
 
+    public BoolVariable OnSlopeSO;
+
     public Transform DeathCam;
 
     bool standAndDie;
@@ -123,7 +125,7 @@ public class PlayerController : MonoBehaviour
     {
         graphics.position = graphicTargetPos + Vector3.down;
 
-        
+        OnSlopeSO.Value = OnSlope;
 
             if (!standAndDie)
             {
