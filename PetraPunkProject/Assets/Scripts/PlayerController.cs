@@ -177,6 +177,8 @@ public class PlayerController : MonoBehaviour
 
         anim.SetBool("OnSlope", OnSlope);
         anim.SetBool("InAir", inAir);
+       // print("Anim value"+ ((Speed - MinSpeed) / (SlopeSpeed - MinSpeed)));
+        anim.SetFloat("Blend", (Speed - MinSpeed) / (SlopeSpeed - MinSpeed));
 
         
 
