@@ -33,9 +33,19 @@ public class UI_menu : MonoBehaviour
     private GameEvent menuCloseClick;
 
 
+   
+    public highScoreVariable highScore;
+    SaveData saveData;
+
     private void Start()
     {   
         sound = true;
+
+
+
+
+
+
 
         //language.Value = true;
 
@@ -43,9 +53,9 @@ public class UI_menu : MonoBehaviour
         menuOpenClick = menuOpenAudio;
         menuCloseClick = menuCloseAudio;
 
-        SaveLoadManager.SaveData();
+        saveData = SaveLoadManager.LoadData(highScore);
 
-        if (SaveLoadManager.saveData.StoryModeCompleted == 1)
+        if (saveData.StoryModeCompleted == 1)
         {
             endlessBt.GetComponent<Button>().enabled = true;
             endlessBtText.GetComponent<Text>().color = new Color(255,255,255);
