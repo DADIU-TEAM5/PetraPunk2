@@ -9,7 +9,9 @@ public class GyroController : MonoBehaviour
     private float gyroInput;
     public float speedMultiplier = 2;
     public float maxVelocity = 1;
-    //public float threshold = 0.2f;
+    public float threshold = 0.2f;
+    public float hardFixValue = 0;
+    public float hardFixInc = 0.0001f;
 
     public Text text;
 
@@ -50,9 +52,9 @@ public class GyroController : MonoBehaviour
             //rotRate = Input.gyro.rotationRate.z;
 
             // Drift
-            rotRate = Input.gyro.rotationRateUnbiased.z;
+            rotRate = Input.gyro.rotationRate.z;
 
-           // rotRate = Input.gyro.attitude.eulerAngles.z;
+            // rotRate = Input.gyro.attitude.eulerAngles.z;
 
         }
 
@@ -60,9 +62,13 @@ public class GyroController : MonoBehaviour
         //    rotRate = 0;
 
         // Add speed multiplier to input
+
         currentRot += rotRate * Time.deltaTime;
         //currentRot = rotRate;
-        gyroInput = (currentRot - gyroOffset) * -speedMultiplier;
+        gyroInput = (currentRot - gyroOffset + hardFixValue) * -speedMultiplier;
+
+        hardFixValue += hardFixInc;
+
 
         if (text != null)
         {
@@ -72,6 +78,7 @@ public class GyroController : MonoBehaviour
         //Set speed cap
         if (gyroInput > 0)
         {
+
             steeringOutput.Value = Mathf.Min(gyroInput, maxVelocity);
         }
         else
@@ -87,7 +94,7 @@ public class GyroController : MonoBehaviour
     {
         Debug.Log("Reset Gyro");
         gyroOffset = currentRot;
-        
+
     }
 
 }
