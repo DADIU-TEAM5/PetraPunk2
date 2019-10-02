@@ -315,7 +315,7 @@ MonoBehaviour:
   buttonClickAudio: {fileID: 11400000, guid: f93d539d5adc9834c89b0bfbf94019c4, type: 2}
   menuOpenAudio: {fileID: 11400000, guid: e363904fc4a459c4cad6e8ad615d3f1b, type: 2}
   menuCloseAudio: {fileID: 11400000, guid: e2e167394610fbe42853db7b3684b184, type: 2}
-  highScore: {fileID: 0}
+  highScore: {fileID: 11400000, guid: 4d3003d66eacd8349a19efb69a7ae20c, type: 2}
 --- !u!114 &6527342279809430671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e68f6f19ea47c46b0312ed7802f120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highscore: {fileID: 11400000, guid: fdbe211b4a38a174a99f208c3b95bd04, type: 2}
+  highscore: {fileID: 0}
   scoreTextObject: {fileID: 1818250314165139860, guid: 84aaf562eaec37c4b9251e149ec31ced,
     type: 3}
   offsetY: -250
