@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3763130619232288183}
   - component: {fileID: 956543433517130921}
   - component: {fileID: 5244852183993879332}
+  - component: {fileID: 5446893921596611191}
   m_Layer: 5
   m_Name: Bt_back
   m_TagString: Untagged
@@ -133,6 +134,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5446893921596611191}
+        m_MethodName: mainMenuSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5244852183993879332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +157,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b168fed394c3e94e9ef202789e92963, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5446893921596611191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138178058364642228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a849347620601784fb11e11a637990c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentLocale: {fileID: 0}
+  storyScene: {fileID: 0}
+  endlessScene: {fileID: 0}
+  endlessBt: {fileID: 0}
+  endlessBtText: {fileID: 0}
+  hasCompletedStory: {fileID: 0}
+  soundButton: {fileID: 0}
+  languageButton: {fileID: 0}
+  languageChange: {fileID: 0}
+  volumeMusic: {fileID: 0}
+  volumeSfx: {fileID: 0}
+  startNewLevelAudio: {fileID: 11400000, guid: 34734d50eed1fd247b8a0b66a5f0f152, type: 2}
+  buttonClickAudio: {fileID: 11400000, guid: f93d539d5adc9834c89b0bfbf94019c4, type: 2}
+  menuOpenAudio: {fileID: 0}
+  menuCloseAudio: {fileID: 0}
 --- !u!1 &2380499647356804775
 GameObject:
   m_ObjectHideFlags: 0
