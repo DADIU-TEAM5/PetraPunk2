@@ -21,7 +21,7 @@
 			<IncludedMemoryFiles>
 				<File Id="483281502" Language="SFX">
 					<ShortName>PlaceholderLogo2.wav</ShortName>
-					<Path>SFX\PlaceholderLogo2_32A0B821.wem</Path>
+					<Path>SFX\PlaceholderLogo2_8850A93A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -59,459 +59,459 @@
 			<IncludedMemoryFiles>
 				<File Id="40859388" Language="SFX">
 					<ShortName>Ambient2MenuTutorial.wav</ShortName>
-					<Path>SFX\Ambient2MenuTutorial_9F132F2F.wem</Path>
+					<Path>SFX\Ambient2MenuTutorial_943146C4.wem</Path>
 				</File>
 				<File Id="41939804" Language="SFX">
 					<ShortName>CalmDrone.wav</ShortName>
-					<Path>SFX\CalmDrone_9F132F2F.wem</Path>
+					<Path>SFX\CalmDrone_943146C4.wem</Path>
 				</File>
 				<File Id="51472917" Language="SFX">
 					<ShortName>FootStep_02.wav</ShortName>
-					<Path>SFX\FootStep_02_32A0B821.wem</Path>
+					<Path>SFX\FootStep_02_8850A93A.wem</Path>
 				</File>
 				<File Id="52993535" Language="SFX">
 					<ShortName>FluteAmb_01.wav</ShortName>
-					<Path>SFX\FluteAmb_01_32A0B821.wem</Path>
+					<Path>SFX\FluteAmb_01_8850A93A.wem</Path>
 				</File>
 				<File Id="54351493" Language="SFX">
 					<ShortName>Grunt_01.wav</ShortName>
-					<Path>SFX\Grunt_01_32A0B821.wem</Path>
+					<Path>SFX\Grunt_01_8850A93A.wem</Path>
 				</File>
 				<File Id="55594322" Language="SFX">
 					<ShortName>PipeSTEAM.wav</ShortName>
-					<Path>SFX\PipeSTEAM_9F132F2F.wem</Path>
+					<Path>SFX\PipeSTEAM_943146C4.wem</Path>
 				</File>
 				<File Id="66492164" Language="SFX">
 					<ShortName>Crickets.wav</ShortName>
-					<Path>SFX\Crickets_9F132F2F.wem</Path>
+					<Path>SFX\Crickets_943146C4.wem</Path>
 				</File>
 				<File Id="67673841" Language="SFX">
 					<ShortName>Radiate_03.wav</ShortName>
-					<Path>SFX\Radiate_03_32A0B821.wem</Path>
+					<Path>SFX\Radiate_03_8850A93A.wem</Path>
 				</File>
 				<File Id="80836346" Language="SFX">
 					<ShortName>FootStep_07.wav</ShortName>
-					<Path>SFX\FootStep_07_32A0B821.wem</Path>
+					<Path>SFX\FootStep_07_8850A93A.wem</Path>
 				</File>
 				<File Id="82547838" Language="SFX">
 					<ShortName>PipeRattle_01.wav</ShortName>
-					<Path>SFX\PipeRattle_01_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_01_8850A93A.wem</Path>
 				</File>
 				<File Id="84086993" Language="SFX">
 					<ShortName>Radiate_01.wav</ShortName>
-					<Path>SFX\Radiate_01_32A0B821.wem</Path>
+					<Path>SFX\Radiate_01_8850A93A.wem</Path>
 				</File>
 				<File Id="86676600" Language="SFX">
 					<ShortName>VentHit_06.wav</ShortName>
-					<Path>SFX\VentHit_06_32A0B821.wem</Path>
+					<Path>SFX\VentHit_06_8850A93A.wem</Path>
 				</File>
 				<File Id="97762032" Language="SFX">
 					<ShortName>DashRattle_01.wav</ShortName>
-					<Path>SFX\DashRattle_01_32A0B821.wem</Path>
+					<Path>SFX\DashRattle_01_8850A93A.wem</Path>
 				</File>
 				<File Id="116876840" Language="SFX">
 					<ShortName>FootRattle_04.wav</ShortName>
-					<Path>SFX\FootRattle_04_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_04_8850A93A.wem</Path>
 				</File>
 				<File Id="129329223" Language="SFX">
 					<ShortName>FootRattle_07.wav</ShortName>
-					<Path>SFX\FootRattle_07_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_07_8850A93A.wem</Path>
 				</File>
 				<File Id="155681279" Language="SFX">
 					<ShortName>NewSlide_01.wav</ShortName>
-					<Path>SFX\NewSlide_01_9F132F2F.wem</Path>
+					<Path>SFX\NewSlide_01_943146C4.wem</Path>
 				</File>
 				<File Id="168634302" Language="SFX">
 					<ShortName>FootStep_05.wav</ShortName>
-					<Path>SFX\FootStep_05_32A0B821.wem</Path>
+					<Path>SFX\FootStep_05_8850A93A.wem</Path>
 				</File>
 				<File Id="184406732" Language="SFX">
 					<ShortName>DashPipe_02.wav</ShortName>
-					<Path>SFX\DashPipe_02_32A0B821.wem</Path>
+					<Path>SFX\DashPipe_02_8850A93A.wem</Path>
 				</File>
 				<File Id="186639405" Language="SFX">
 					<ShortName>DashRattle_02.wav</ShortName>
-					<Path>SFX\DashRattle_02_32A0B821.wem</Path>
+					<Path>SFX\DashRattle_02_8850A93A.wem</Path>
 				</File>
 				<File Id="194851116" Language="SFX">
 					<ShortName>ThreeBarSimpleHat.wav</ShortName>
-					<Path>SFX\ThreeBarSimpleHat_9F132F2F.wem</Path>
+					<Path>SFX\ThreeBarSimpleHat_943146C4.wem</Path>
 				</File>
 				<File Id="199947134" Language="SFX">
 					<ShortName>FootRattle_10.wav</ShortName>
-					<Path>SFX\FootRattle_10_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_10_8850A93A.wem</Path>
 				</File>
 				<File Id="225611178" Language="SFX">
 					<ShortName>DashSwirl_02.wav</ShortName>
-					<Path>SFX\DashSwirl_02_32A0B821.wem</Path>
+					<Path>SFX\DashSwirl_02_8850A93A.wem</Path>
 				</File>
 				<File Id="248629849" Language="SFX">
 					<ShortName>FootRattle_09.wav</ShortName>
-					<Path>SFX\FootRattle_09_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_09_8850A93A.wem</Path>
 				</File>
 				<File Id="261111805" Language="SFX">
 					<ShortName>FootRattle_06.wav</ShortName>
-					<Path>SFX\FootRattle_06_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_06_8850A93A.wem</Path>
 				</File>
 				<File Id="261360263" Language="SFX">
 					<ShortName>CooldownOver_04.wav</ShortName>
-					<Path>SFX\CooldownOver_04_32A0B821.wem</Path>
+					<Path>SFX\CooldownOver_04_8850A93A.wem</Path>
 				</File>
 				<File Id="269129439" Language="SFX">
 					<ShortName>DeathGrunt_04.wav</ShortName>
-					<Path>SFX\DeathGrunt_04_32A0B821.wem</Path>
+					<Path>SFX\DeathGrunt_04_8850A93A.wem</Path>
 				</File>
 				<File Id="280703377" Language="SFX">
 					<ShortName>FootRattle_05.wav</ShortName>
-					<Path>SFX\FootRattle_05_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_05_8850A93A.wem</Path>
 				</File>
 				<File Id="282085368" Language="SFX">
 					<ShortName>NewBasssssss.wav</ShortName>
-					<Path>SFX\NewBasssssss_9F132F2F.wem</Path>
+					<Path>SFX\NewBasssssss_943146C4.wem</Path>
 				</File>
 				<File Id="283056197" Language="SFX">
 					<ShortName>MouthWind_02.wav</ShortName>
-					<Path>SFX\MouthWind_02_9F132F2F.wem</Path>
+					<Path>SFX\MouthWind_02_943146C4.wem</Path>
 				</File>
 				<File Id="286810249" Language="SFX">
 					<ShortName>16BarBeat2.wav</ShortName>
-					<Path>SFX\16BarBeat2_9F132F2F.wem</Path>
+					<Path>SFX\16BarBeat2_943146C4.wem</Path>
 				</File>
 				<File Id="299003409" Language="SFX">
 					<ShortName>FootRattle_08.wav</ShortName>
-					<Path>SFX\FootRattle_08_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_08_8850A93A.wem</Path>
 				</File>
 				<File Id="303488747" Language="SFX">
 					<ShortName>pickupTone_Whoomb_01.wav</ShortName>
-					<Path>SFX\pickupTone_Whoomb_01_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_Whoomb_01_8850A93A.wem</Path>
 				</File>
 				<File Id="314638672" Language="SFX">
 					<ShortName>VentHit_02.wav</ShortName>
-					<Path>SFX\VentHit_02_32A0B821.wem</Path>
+					<Path>SFX\VentHit_02_8850A93A.wem</Path>
 				</File>
 				<File Id="319432359" Language="SFX">
 					<ShortName>FluteAmb_05.wav</ShortName>
-					<Path>SFX\FluteAmb_05_32A0B821.wem</Path>
+					<Path>SFX\FluteAmb_05_8850A93A.wem</Path>
 				</File>
 				<File Id="334814868" Language="SFX">
 					<ShortName>PipeRattle_05.wav</ShortName>
-					<Path>SFX\PipeRattle_05_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_05_8850A93A.wem</Path>
 				</File>
 				<File Id="343282098" Language="SFX">
 					<ShortName>DeathGrunt_01.wav</ShortName>
-					<Path>SFX\DeathGrunt_01_32A0B821.wem</Path>
+					<Path>SFX\DeathGrunt_01_8850A93A.wem</Path>
 				</File>
 				<File Id="344386262" Language="SFX">
 					<ShortName>CooldownOver_03.wav</ShortName>
-					<Path>SFX\CooldownOver_03_32A0B821.wem</Path>
+					<Path>SFX\CooldownOver_03_8850A93A.wem</Path>
 				</File>
 				<File Id="351122526" Language="SFX">
 					<ShortName>FallScream.wav</ShortName>
-					<Path>SFX\FallScream_32A0B821.wem</Path>
+					<Path>SFX\FallScream_8850A93A.wem</Path>
 				</File>
 				<File Id="363871090" Language="SFX">
 					<ShortName>HumanoidHitPC_01.wav</ShortName>
-					<Path>SFX\HumanoidHitPC_01_32A0B821.wem</Path>
+					<Path>SFX\HumanoidHitPC_01_8850A93A.wem</Path>
 				</File>
 				<File Id="373720796" Language="SFX">
 					<ShortName>Radiate_04.wav</ShortName>
-					<Path>SFX\Radiate_04_32A0B821.wem</Path>
+					<Path>SFX\Radiate_04_8850A93A.wem</Path>
 				</File>
 				<File Id="378212670" Language="SFX">
 					<ShortName>UI_Select_01.wav</ShortName>
-					<Path>SFX\UI_Select_01_32A0B821.wem</Path>
+					<Path>SFX\UI_Select_01_8850A93A.wem</Path>
 				</File>
 				<File Id="396532210" Language="SFX">
 					<ShortName>FootStep_01.wav</ShortName>
-					<Path>SFX\FootStep_01_32A0B821.wem</Path>
+					<Path>SFX\FootStep_01_8850A93A.wem</Path>
 				</File>
 				<File Id="396968319" Language="SFX">
 					<ShortName>DeathGrunt_02.wav</ShortName>
-					<Path>SFX\DeathGrunt_02_32A0B821.wem</Path>
+					<Path>SFX\DeathGrunt_02_8850A93A.wem</Path>
 				</File>
 				<File Id="405245691" Language="SFX">
 					<ShortName>FootStep_06.wav</ShortName>
-					<Path>SFX\FootStep_06_32A0B821.wem</Path>
+					<Path>SFX\FootStep_06_8850A93A.wem</Path>
 				</File>
 				<File Id="406581483" Language="SFX">
 					<ShortName>PipeRattle_06.wav</ShortName>
-					<Path>SFX\PipeRattle_06_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_06_8850A93A.wem</Path>
 				</File>
 				<File Id="410100850" Language="SFX">
 					<ShortName>pickupTone_02.wav</ShortName>
-					<Path>SFX\pickupTone_02_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_02_8850A93A.wem</Path>
 				</File>
 				<File Id="412703472" Language="SFX">
 					<ShortName>FootStep_12.wav</ShortName>
-					<Path>SFX\FootStep_12_32A0B821.wem</Path>
+					<Path>SFX\FootStep_12_8850A93A.wem</Path>
 				</File>
 				<File Id="419355521" Language="SFX">
 					<ShortName>NewCalmBeat1.wav</ShortName>
-					<Path>SFX\NewCalmBeat1_9F132F2F.wem</Path>
+					<Path>SFX\NewCalmBeat1_943146C4.wem</Path>
 				</File>
 				<File Id="427601425" Language="SFX">
 					<ShortName>CooldownOver_02.wav</ShortName>
-					<Path>SFX\CooldownOver_02_32A0B821.wem</Path>
+					<Path>SFX\CooldownOver_02_8850A93A.wem</Path>
 				</File>
 				<File Id="427834511" Language="SFX">
 					<ShortName>FootRattle_11.wav</ShortName>
-					<Path>SFX\FootRattle_11_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_11_8850A93A.wem</Path>
 				</File>
 				<File Id="458543221" Language="SFX">
 					<ShortName>Melodi.wav</ShortName>
-					<Path>SFX\Melodi_9F132F2F.wem</Path>
+					<Path>SFX\Melodi_943146C4.wem</Path>
 				</File>
 				<File Id="459483209" Language="SFX">
 					<ShortName>FootStep_14.wav</ShortName>
-					<Path>SFX\FootStep_14_32A0B821.wem</Path>
+					<Path>SFX\FootStep_14_8850A93A.wem</Path>
 				</File>
 				<File Id="478313817" Language="SFX">
 					<ShortName>DashSwirlyli_02.wav</ShortName>
-					<Path>SFX\DashSwirlyli_02_32A0B821.wem</Path>
+					<Path>SFX\DashSwirlyli_02_8850A93A.wem</Path>
 				</File>
 				<File Id="481537045" Language="SFX">
 					<ShortName>NewSlide_02.wav</ShortName>
-					<Path>SFX\NewSlide_02_9F132F2F.wem</Path>
+					<Path>SFX\NewSlide_02_943146C4.wem</Path>
 				</File>
 				<File Id="483281502" Language="SFX">
 					<ShortName>PlaceholderLogo2.wav</ShortName>
-					<Path>SFX\PlaceholderLogo2_32A0B821.wem</Path>
+					<Path>SFX\PlaceholderLogo2_8850A93A.wem</Path>
 				</File>
 				<File Id="483743850" Language="SFX">
 					<ShortName>VentHit_05.wav</ShortName>
-					<Path>SFX\VentHit_05_32A0B821.wem</Path>
+					<Path>SFX\VentHit_05_8850A93A.wem</Path>
 				</File>
 				<File Id="489056844" Language="SFX">
 					<ShortName>PipeRattle_04.wav</ShortName>
-					<Path>SFX\PipeRattle_04_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_04_8850A93A.wem</Path>
 				</File>
 				<File Id="490039016" Language="SFX">
 					<ShortName>Grunt_06.wav</ShortName>
-					<Path>SFX\Grunt_06_32A0B821.wem</Path>
+					<Path>SFX\Grunt_06_8850A93A.wem</Path>
 				</File>
 				<File Id="492388101" Language="SFX">
 					<ShortName>FootRattle_12.wav</ShortName>
-					<Path>SFX\FootRattle_12_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_12_8850A93A.wem</Path>
 				</File>
 				<File Id="510864419" Language="SFX">
 					<ShortName>DashPipe_01.wav</ShortName>
-					<Path>SFX\DashPipe_01_32A0B821.wem</Path>
+					<Path>SFX\DashPipe_01_8850A93A.wem</Path>
 				</File>
 				<File Id="546858743" Language="SFX">
 					<ShortName>pickupRattle.wav</ShortName>
-					<Path>SFX\pickupRattle_32A0B821.wem</Path>
+					<Path>SFX\pickupRattle_8850A93A.wem</Path>
 				</File>
 				<File Id="557655837" Language="SFX">
 					<ShortName>MouthWind_01.wav</ShortName>
-					<Path>SFX\MouthWind_01_9F132F2F.wem</Path>
+					<Path>SFX\MouthWind_01_943146C4.wem</Path>
 				</File>
 				<File Id="578631917" Language="SFX">
 					<ShortName>FootStep_10.wav</ShortName>
-					<Path>SFX\FootStep_10_32A0B821.wem</Path>
+					<Path>SFX\FootStep_10_8850A93A.wem</Path>
 				</File>
 				<File Id="581785487" Language="SFX">
 					<ShortName>NewSlide_03.wav</ShortName>
-					<Path>SFX\NewSlide_03_9F132F2F.wem</Path>
+					<Path>SFX\NewSlide_03_943146C4.wem</Path>
 				</File>
 				<File Id="591291361" Language="SFX">
 					<ShortName>pickupTone_05.wav</ShortName>
-					<Path>SFX\pickupTone_05_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_05_8850A93A.wem</Path>
 				</File>
 				<File Id="598973640" Language="SFX">
 					<ShortName>FootStep_09.wav</ShortName>
-					<Path>SFX\FootStep_09_32A0B821.wem</Path>
+					<Path>SFX\FootStep_09_8850A93A.wem</Path>
 				</File>
 				<File Id="599041593" Language="SFX">
 					<ShortName>DashSwirl_03.wav</ShortName>
-					<Path>SFX\DashSwirl_03_32A0B821.wem</Path>
+					<Path>SFX\DashSwirl_03_8850A93A.wem</Path>
 				</File>
 				<File Id="606289397" Language="SFX">
 					<ShortName>FluteAmb_03.wav</ShortName>
-					<Path>SFX\FluteAmb_03_32A0B821.wem</Path>
+					<Path>SFX\FluteAmb_03_8850A93A.wem</Path>
 				</File>
 				<File Id="628454829" Language="SFX">
 					<ShortName>FootStep_04.wav</ShortName>
-					<Path>SFX\FootStep_04_32A0B821.wem</Path>
+					<Path>SFX\FootStep_04_8850A93A.wem</Path>
 				</File>
 				<File Id="633560826" Language="SFX">
 					<ShortName>DronePLacehoLDEr.wav</ShortName>
-					<Path>SFX\DronePLacehoLDEr_9F132F2F.wem</Path>
+					<Path>SFX\DronePLacehoLDEr_943146C4.wem</Path>
 				</File>
 				<File Id="639032088" Language="SFX">
 					<ShortName>Radiate_07.wav</ShortName>
-					<Path>SFX\Radiate_07_32A0B821.wem</Path>
+					<Path>SFX\Radiate_07_8850A93A.wem</Path>
 				</File>
 				<File Id="659495786" Language="SFX">
 					<ShortName>Radiate_05.wav</ShortName>
-					<Path>SFX\Radiate_05_32A0B821.wem</Path>
+					<Path>SFX\Radiate_05_8850A93A.wem</Path>
 				</File>
 				<File Id="666937032" Language="SFX">
 					<ShortName>DeathGrunt_03.wav</ShortName>
-					<Path>SFX\DeathGrunt_03_32A0B821.wem</Path>
+					<Path>SFX\DeathGrunt_03_8850A93A.wem</Path>
 				</File>
 				<File Id="675159911" Language="SFX">
 					<ShortName>DashSwirlyli_03.wav</ShortName>
-					<Path>SFX\DashSwirlyli_03_32A0B821.wem</Path>
+					<Path>SFX\DashSwirlyli_03_8850A93A.wem</Path>
 				</File>
 				<File Id="681854934" Language="SFX">
 					<ShortName>Runplaceholder.wav</ShortName>
-					<Path>SFX\Runplaceholder_9F132F2F.wem</Path>
+					<Path>SFX\Runplaceholder_943146C4.wem</Path>
 				</File>
 				<File Id="687466041" Language="SFX">
 					<ShortName>FootStep_11.wav</ShortName>
-					<Path>SFX\FootStep_11_32A0B821.wem</Path>
+					<Path>SFX\FootStep_11_8850A93A.wem</Path>
 				</File>
 				<File Id="710076068" Language="SFX">
 					<ShortName>DashSwirlyli_01.wav</ShortName>
-					<Path>SFX\DashSwirlyli_01_32A0B821.wem</Path>
+					<Path>SFX\DashSwirlyli_01_8850A93A.wem</Path>
 				</File>
 				<File Id="718911144" Language="SFX">
 					<ShortName>GoodHit_01.wav</ShortName>
-					<Path>SFX\GoodHit_01_32A0B821.wem</Path>
+					<Path>SFX\GoodHit_01_8850A93A.wem</Path>
 				</File>
 				<File Id="725757526" Language="SFX">
 					<ShortName>FluteAmb_02.wav</ShortName>
-					<Path>SFX\FluteAmb_02_32A0B821.wem</Path>
+					<Path>SFX\FluteAmb_02_8850A93A.wem</Path>
 				</File>
 				<File Id="733835236" Language="SFX">
 					<ShortName>pickupTone_04.wav</ShortName>
-					<Path>SFX\pickupTone_04_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_04_8850A93A.wem</Path>
 				</File>
 				<File Id="734814858" Language="SFX">
 					<ShortName>FootStep_08.wav</ShortName>
-					<Path>SFX\FootStep_08_32A0B821.wem</Path>
+					<Path>SFX\FootStep_08_8850A93A.wem</Path>
 				</File>
 				<File Id="734867289" Language="SFX">
 					<ShortName>Radiate_02.wav</ShortName>
-					<Path>SFX\Radiate_02_32A0B821.wem</Path>
+					<Path>SFX\Radiate_02_8850A93A.wem</Path>
 				</File>
 				<File Id="743025809" Language="SFX">
 					<ShortName>Grunt_03.wav</ShortName>
-					<Path>SFX\Grunt_03_32A0B821.wem</Path>
+					<Path>SFX\Grunt_03_8850A93A.wem</Path>
 				</File>
 				<File Id="757000106" Language="SFX">
 					<ShortName>MouthWind_03.wav</ShortName>
-					<Path>SFX\MouthWind_03_9F132F2F.wem</Path>
+					<Path>SFX\MouthWind_03_943146C4.wem</Path>
 				</File>
 				<File Id="769073162" Language="SFX">
 					<ShortName>PipeRattle_03.wav</ShortName>
-					<Path>SFX\PipeRattle_03_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_03_8850A93A.wem</Path>
 				</File>
 				<File Id="771999153" Language="SFX">
 					<ShortName>Grunt_04.wav</ShortName>
-					<Path>SFX\Grunt_04_32A0B821.wem</Path>
+					<Path>SFX\Grunt_04_8850A93A.wem</Path>
 				</File>
 				<File Id="775343429" Language="SFX">
 					<ShortName>FluteAmb_04.wav</ShortName>
-					<Path>SFX\FluteAmb_04_32A0B821.wem</Path>
+					<Path>SFX\FluteAmb_04_8850A93A.wem</Path>
 				</File>
 				<File Id="799040413" Language="SFX">
 					<ShortName>CooldownOver_01.wav</ShortName>
-					<Path>SFX\CooldownOver_01_32A0B821.wem</Path>
+					<Path>SFX\CooldownOver_01_8850A93A.wem</Path>
 				</File>
 				<File Id="831092031" Language="SFX">
 					<ShortName>PipeRattle_07.wav</ShortName>
-					<Path>SFX\PipeRattle_07_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_07_8850A93A.wem</Path>
 				</File>
 				<File Id="834897999" Language="SFX">
 					<ShortName>NewIntenseBeat1.wav</ShortName>
-					<Path>SFX\NewIntenseBeat1_9F132F2F.wem</Path>
+					<Path>SFX\NewIntenseBeat1_943146C4.wem</Path>
 				</File>
 				<File Id="836164005" Language="SFX">
 					<ShortName>FootRattle_02.wav</ShortName>
-					<Path>SFX\FootRattle_02_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_02_8850A93A.wem</Path>
 				</File>
 				<File Id="841951638" Language="SFX">
 					<ShortName>pickupTone_06.wav</ShortName>
-					<Path>SFX\pickupTone_06_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_06_8850A93A.wem</Path>
 				</File>
 				<File Id="858333934" Language="SFX">
 					<ShortName>VentHit_03.wav</ShortName>
-					<Path>SFX\VentHit_03_32A0B821.wem</Path>
+					<Path>SFX\VentHit_03_8850A93A.wem</Path>
 				</File>
 				<File Id="861130625" Language="SFX">
 					<ShortName>NewCalmBeat2.wav</ShortName>
-					<Path>SFX\NewCalmBeat2_9F132F2F.wem</Path>
+					<Path>SFX\NewCalmBeat2_943146C4.wem</Path>
 				</File>
 				<File Id="865403475" Language="SFX">
 					<ShortName>Radiate_06.wav</ShortName>
-					<Path>SFX\Radiate_06_32A0B821.wem</Path>
+					<Path>SFX\Radiate_06_8850A93A.wem</Path>
 				</File>
 				<File Id="867659479" Language="SFX">
 					<ShortName>pickupTone_01.wav</ShortName>
-					<Path>SFX\pickupTone_01_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_01_8850A93A.wem</Path>
 				</File>
 				<File Id="877401360" Language="SFX">
 					<ShortName>pickupTone_03.wav</ShortName>
-					<Path>SFX\pickupTone_03_32A0B821.wem</Path>
+					<Path>SFX\pickupTone_03_8850A93A.wem</Path>
 				</File>
 				<File Id="881954957" Language="SFX">
 					<ShortName>DashSwirl_01.wav</ShortName>
-					<Path>SFX\DashSwirl_01_32A0B821.wem</Path>
+					<Path>SFX\DashSwirl_01_8850A93A.wem</Path>
 				</File>
 				<File Id="890714625" Language="SFX">
 					<ShortName>NewIntroBeat.wav</ShortName>
-					<Path>SFX\NewIntroBeat_9F132F2F.wem</Path>
+					<Path>SFX\NewIntroBeat_943146C4.wem</Path>
 				</File>
 				<File Id="905546332" Language="SFX">
 					<ShortName>PipeRattle_02.wav</ShortName>
-					<Path>SFX\PipeRattle_02_32A0B821.wem</Path>
+					<Path>SFX\PipeRattle_02_8850A93A.wem</Path>
 				</File>
 				<File Id="908114478" Language="SFX">
 					<ShortName>FootRattle_03.wav</ShortName>
-					<Path>SFX\FootRattle_03_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_03_8850A93A.wem</Path>
 				</File>
 				<File Id="946976637" Language="SFX">
 					<ShortName>plantDead.wav</ShortName>
-					<Path>SFX\plantDead_32A0B821.wem</Path>
+					<Path>SFX\plantDead_8850A93A.wem</Path>
 				</File>
 				<File Id="947768029" Language="SFX">
 					<ShortName>VentHit_04.wav</ShortName>
-					<Path>SFX\VentHit_04_32A0B821.wem</Path>
+					<Path>SFX\VentHit_04_8850A93A.wem</Path>
 				</File>
 				<File Id="949392818" Language="SFX">
 					<ShortName>FootStep_03.wav</ShortName>
-					<Path>SFX\FootStep_03_32A0B821.wem</Path>
+					<Path>SFX\FootStep_03_8850A93A.wem</Path>
 				</File>
 				<File Id="961476253" Language="SFX">
 					<ShortName>VentHit_07.wav</ShortName>
-					<Path>SFX\VentHit_07_32A0B821.wem</Path>
+					<Path>SFX\VentHit_07_8850A93A.wem</Path>
 				</File>
 				<File Id="972298806" Language="SFX">
 					<ShortName>Grunt_02.wav</ShortName>
-					<Path>SFX\Grunt_02_32A0B821.wem</Path>
+					<Path>SFX\Grunt_02_8850A93A.wem</Path>
 				</File>
 				<File Id="992243382" Language="SFX">
 					<ShortName>DashPipe_03.wav</ShortName>
-					<Path>SFX\DashPipe_03_32A0B821.wem</Path>
+					<Path>SFX\DashPipe_03_8850A93A.wem</Path>
 				</File>
 				<File Id="1004127604" Language="SFX">
 					<ShortName>DashRattle_03.wav</ShortName>
-					<Path>SFX\DashRattle_03_32A0B821.wem</Path>
+					<Path>SFX\DashRattle_03_8850A93A.wem</Path>
 				</File>
 				<File Id="1022102426" Language="SFX">
 					<ShortName>NewIntenseBeat2.wav</ShortName>
-					<Path>SFX\NewIntenseBeat2_9F132F2F.wem</Path>
+					<Path>SFX\NewIntenseBeat2_943146C4.wem</Path>
 				</File>
 				<File Id="1039658552" Language="SFX">
 					<ShortName>DashWhooshPlaceholder.wav</ShortName>
-					<Path>SFX\DashWhooshPlaceholder_32A0B821.wem</Path>
+					<Path>SFX\DashWhooshPlaceholder_8850A93A.wem</Path>
 				</File>
 				<File Id="1048413976" Language="SFX">
 					<ShortName>FootRattle_01.wav</ShortName>
-					<Path>SFX\FootRattle_01_32A0B821.wem</Path>
+					<Path>SFX\FootRattle_01_8850A93A.wem</Path>
 				</File>
 				<File Id="1049903775" Language="SFX">
 					<ShortName>FootStep_13.wav</ShortName>
-					<Path>SFX\FootStep_13_32A0B821.wem</Path>
+					<Path>SFX\FootStep_13_8850A93A.wem</Path>
 				</File>
 				<File Id="1059597349" Language="SFX">
 					<ShortName>Craxy.wav</ShortName>
-					<Path>SFX\Craxy_9F132F2F.wem</Path>
+					<Path>SFX\Craxy_943146C4.wem</Path>
 				</File>
 				<File Id="1065397013" Language="SFX">
 					<ShortName>VentHit_01.wav</ShortName>
-					<Path>SFX\VentHit_01_32A0B821.wem</Path>
+					<Path>SFX\VentHit_01_8850A93A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
