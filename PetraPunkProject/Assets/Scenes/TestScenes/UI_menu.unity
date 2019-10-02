@@ -618,6 +618,26 @@ PrefabInstance:
       propertyPath: selectedSceneName
       value: CreditsScene
       objectReference: {fileID: 0}
+    - target: {fileID: 3355849025493196689, guid: b344c87ad61862a4d9c1366848bc4420,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355849025493196689, guid: b344c87ad61862a4d9c1366848bc4420,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 2960
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355849025493196689, guid: b344c87ad61862a4d9c1366848bc4420,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355849025493196689, guid: b344c87ad61862a4d9c1366848bc4420,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3355849025493196684, guid: b344c87ad61862a4d9c1366848bc4420,
         type: 3}
       propertyPath: highScore
@@ -1178,7 +1198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 588478110}
-  score: {fileID: 11400000, guid: fdbe211b4a38a174a99f208c3b95bd04, type: 2}
+  score: {fileID: 0}
 --- !u!4 &1911833508
 Transform:
   m_ObjectHideFlags: 0
