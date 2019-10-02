@@ -186,5 +186,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFading: 0
+  hasWon: {fileID: 11400000, guid: 32d48feb22f55bf418619f733b12ea54, type: 2}
   screenImage: {fileID: 8430847296282526600}
   fadeSpeed: 0.008

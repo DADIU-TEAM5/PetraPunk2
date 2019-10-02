@@ -29,6 +29,10 @@ public class highscoreUpdate : MonoBehaviour
     private void OnEnable()
     {
         //ShowHighscore();
+
+        SaveData data = new SaveData(highscore);
+        SaveLoadManager.SaveData(data, highscore);
+
     }
 
     public void ShowHighscore()
