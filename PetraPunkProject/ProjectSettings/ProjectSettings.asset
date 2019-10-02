@@ -162,7 +162,7 @@ PlayerSettings:
   m_ColorGamuts: 0000000003000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
-  androidSupportedAspectRatio: 2
+  androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 1.86
   applicationIdentifier: {}
   buildNumber: {}
