@@ -17,6 +17,8 @@ public class LifeManager : MonoBehaviour
     public Sprite GrayHeart;
     public Sprite RedHeart;
 
+    public highScoreVariable highScore;
+
     public int NumberOfLifes;
 
     private bool raisedDeath = false;
@@ -51,6 +53,24 @@ public class LifeManager : MonoBehaviour
 
         if (Lifes.Value <= 0 && raisedDeath == true && Input.GetMouseButton(0))
         {
+
+
+            SaveData saveData = new SaveData(highScore);
+
+
+            highScore = new highScoreVariable();
+
+
+            
+                highScore.scores = saveData.scores;
+                highScore.collectibles = saveData.collectibles;
+                highScore.names = saveData.names;
+            
+            
+            saveData.StoryModeCompleted = 1;
+
+            SaveLoadManager.SaveData(saveData, highScore);
+
             LoadCredits();
         }
 

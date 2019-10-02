@@ -304,6 +304,7 @@ MonoBehaviour:
   Heart3: {fileID: 6119009248936764617}
   GrayHeart: {fileID: 21300000, guid: 0a5c01c3d1c83cd419c6bf9cf21af33d, type: 3}
   RedHeart: {fileID: 21300000, guid: 37b3fb97028465a4caf7ed3b3ba7ffb2, type: 3}
+  highScore: {fileID: 11400000, guid: 80dad15df59306e4688b347c0777c79c, type: 2}
   NumberOfLifes: 3
 --- !u!114 &7984584494837175570
 MonoBehaviour:
@@ -355,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e68f6f19ea47c46b0312ed7802f120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highscore: {fileID: 11400000, guid: 4d3003d66eacd8349a19efb69a7ae20c, type: 2}
+  highscore: {fileID: 11400000, guid: 80dad15df59306e4688b347c0777c79c, type: 2}
   scoreTextObject: {fileID: 1818250314165139860, guid: 84aaf562eaec37c4b9251e149ec31ced,
     type: 3}
   offsetY: 0

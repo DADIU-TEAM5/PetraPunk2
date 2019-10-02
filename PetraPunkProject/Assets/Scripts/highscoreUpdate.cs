@@ -31,7 +31,14 @@ public class highscoreUpdate : MonoBehaviour
         //ShowHighscore();
 
         SaveData data = new SaveData(highscore);
+        data.scores = highscore.scores;
+        data.names = highscore.names;
+        data.collectibles = highscore.collectibles;
+        data.StoryModeCompleted = 1;
+
+
         SaveLoadManager.SaveData(data, highscore);
+        
 
     }
 
