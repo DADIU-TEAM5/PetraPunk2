@@ -63,36 +63,17 @@ public class UI_menu : MonoBehaviour
         
     }
 
-    public void mainMenuSelection(int screen)
+    public void mainMenuSelection()
     {
-        switch (screen)
-        {
-            case 3:
-                Debug.Log("Exit");
-                btClick.Raise();
-                Application.Quit();
-                break;
-            case 2:
-                Debug.Log("Options");
-                menuOpenClick.Raise();
-                break;
-            case 1:
-                Debug.Log("new game");
-                btClick.Raise();
-                startNewLevelAudio.Raise();
-                //SceneManager.LoadScene(2);
-                break;
-        }
+        btClick.Raise();
     }
 
     public void optionsMenuSelection(int screen)
     {
+        btClick.Raise();
+
         switch (screen)
         {
-            case 3:
-                Debug.Log("back");
-                menuCloseClick.Raise();
-                break;
             case 2:
                 //btClick.Raise();
 

@@ -9,20 +9,31 @@ public class Audio_UI : MonoBehaviour
     public AK.Wwise.Event UISelect;
     public AK.Wwise.Event UIOpen;
     public AK.Wwise.Event UIClose;
-    public AK.Wwise.RTPC MusicLevelRTPC;
-    public AK.Wwise.RTPC SFXLevelRTPC;
+  //  public AK.Wwise.RTPC MusicLevelRTPC;
+    //public AK.Wwise.RTPC SFXLevelRTPC;
     public FloatVariable MusicLevel;
     public FloatVariable SFXLevel;
+    public float ShowMusicLevel;
+    public float ShowSFXLevel;
 
+    void Start()
+    {
+        ShowSFXLevel = 100;
+        ShowMusicLevel = 100;
+    }
 
     public void OnMusicLevelChange()
     {
-        MusicLevelRTPC.SetValue(this.gameObject, MusicLevel.Value);
+       // MusicLevelRTPC.SetValue(this.gameObject, MusicLevel.Value);
+        ShowMusicLevel = MusicLevel.Value;
+        AkSoundEngine.SetRTPCValue("MusicLevel", ShowMusicLevel);
     }
 
     public void OnSFXLevelChange()
     {
-        SFXLevelRTPC.SetValue(this.gameObject, SFXLevel.Value);
+        //SFXLevelRTPC.SetValue(this.gameObject, SFXLevel.Value);
+        ShowSFXLevel = SFXLevel.Value;
+        AkSoundEngine.SetRTPCValue("SFXlevel", ShowSFXLevel);
     }
 
     public void PlayerDeath()

@@ -11,6 +11,20 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="1185387770" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\LogoBank</ObjectPath>
+			<ShortName>LogoBank</ShortName>
+			<Path>LogoBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="556785088" Name="Logo" ObjectPath="\Events\Logo\Logo" DurationType="OneShot" DurationMin="3.477256" DurationMax="3.477256"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="483281502" Language="SFX">
+					<ShortName>PlaceholderLogo2.wav</ShortName>
+					<Path>SFX\PlaceholderLogo2_32A0B821.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -29,6 +43,7 @@
 				<Event Id="2886188696" Name="FootStepLoopPlaceholder" ObjectPath="\Events\PlayerCharacter\Movement\FootStepLoopPlaceholder" DurationType="Infinite"/>
 				<Event Id="2385628199" Name="FootstepR" ObjectPath="\Events\PlayerCharacter\Movement\Footsteps\FootstepR" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4149105284" Name="Jumppad" ObjectPath="\Events\PlayerCharacter\Movement\Jumppad" DurationType="OneShot" DurationMin="0.804555" DurationMax="1.276603"/>
+				<Event Id="556785088" Name="Logo" ObjectPath="\Events\Logo\Logo" DurationType="OneShot" DurationMin="3.477256" DurationMax="3.477256"/>
 				<Event Id="506989395" Name="MusicDron" ObjectPath="\Events\MusicEvents\MusicDron" DurationType="Infinite"/>
 				<Event Id="4195921398" Name="MusicTest" ObjectPath="\Events\MusicEvents\MusicTest" DurationType="Infinite"/>
 				<Event Id="3978245845" Name="PickUp" ObjectPath="\Events\UI and Event\PickUp" DurationType="OneShot" DurationMin="1.555760" DurationMax="1.555760"/>
@@ -257,6 +272,10 @@
 				<File Id="481537045" Language="SFX">
 					<ShortName>NewSlide_02.wav</ShortName>
 					<Path>SFX\NewSlide_02_9F132F2F.wem</Path>
+				</File>
+				<File Id="483281502" Language="SFX">
+					<ShortName>PlaceholderLogo2.wav</ShortName>
+					<Path>SFX\PlaceholderLogo2_32A0B821.wem</Path>
 				</File>
 				<File Id="483743850" Language="SFX">
 					<ShortName>VentHit_05.wav</ShortName>
