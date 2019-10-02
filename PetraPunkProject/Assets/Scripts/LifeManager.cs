@@ -41,6 +41,7 @@ public class LifeManager : MonoBehaviour
         if (Lifes.Value <= 0)
         {
             print("game Over");
+            SceneManager.LoadScene("EndlessLevel");
             
             if (!raisedDeath) {
                 deathAudio.Raise();
@@ -54,23 +55,24 @@ public class LifeManager : MonoBehaviour
         if (Lifes.Value <= 0 && raisedDeath == true && Input.GetMouseButton(0))
         {
 
-
-            SaveData saveData = new SaveData(highScore);
-
-
-            highScore = new highScoreVariable();
+            if (highScore != null)
+            {
+                SaveData saveData = new SaveData(highScore);
 
 
-            
+                highScore = new highScoreVariable();
+
+
+
                 highScore.scores = saveData.scores;
                 highScore.collectibles = saveData.collectibles;
                 highScore.names = saveData.names;
-            
-            
-            saveData.StoryModeCompleted = 1;
 
-            SaveLoadManager.SaveData(saveData, highScore);
 
+                saveData.StoryModeCompleted = 1;
+
+                SaveLoadManager.SaveData(saveData, highScore);
+            }
             LoadCredits();
         }
 

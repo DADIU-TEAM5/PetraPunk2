@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::highScoreVariable
   names:
   - tester
+  - tester
+  - tester
   - 
   - 
-  - 
-  - 
-  scores: 0000000000000000000000000000000000000000
+  scores: 790000006c000000650000000000000000000000
   collectibles: 0000000000000000000000000000000000000000

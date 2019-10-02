@@ -44,48 +44,52 @@ public class highscoreUpdate : MonoBehaviour
 
     public void ShowHighscore()
     {
-        size = highscore.scores.Length;
-
-        scoreTextTemp = "";
-
-        while (size > 0)
+        if (highscore != null)
         {
-            var pos = size;
+            size = highscore.scores.Length;
 
-            size--;
+            scoreTextTemp = "";
 
-            if (showNames)
+            while (size > 0)
             {
-                scoreName = highscore.names[size].ToString() + "\t";
+                var pos = size;
+
+                size--;
+
+                if (showNames)
+                {
+                    scoreName = highscore.names[size].ToString() + "\t";
+                }
+                else
+                {
+                    scoreName = "";
+                }
+
+                if (showScores)
+                {
+                    scorePoints = highscore.scores[size].ToString() + "\n";
+                }
+                else
+                {
+                    scorePoints = "";
+                }
+                scoreCollectibles = highscore.collectibles[size].ToString() + "\t";
+
+                scoreTextTemp = "<b>" + pos + "</b>" + "\t" + scoreName + scoreCollectibles + scorePoints + scoreTextTemp;
             }
-            else
+
+            if (!highscoreLoaded)
             {
-                scoreName = "";
+                highscoreText = Instantiate(scoreTextObject, scoreCanvas.transform);
+
+                highscoreText.GetComponent<RectTransform>().localPosition = new Vector3(0, offsetY);
+                highscoreText.GetComponent<Text>().alignment = TextAnchor.UpperLeft;
+
+                highscoreLoaded = true;
             }
 
-            if (showScores)
-            {
-                scorePoints = highscore.scores[size].ToString() + "\n";
-            } else
-            {
-                scorePoints = "";
-            }
-            scoreCollectibles = highscore.collectibles[size].ToString() + "\t";
-
-            scoreTextTemp = "<b>" + pos + "</b>" + "\t" + scoreName + scoreCollectibles + scorePoints + scoreTextTemp;
+            highscoreText.GetComponent<Text>().text = scoreTextTemp;
         }
-
-        if(!highscoreLoaded)
-        {
-            highscoreText = Instantiate(scoreTextObject, scoreCanvas.transform);
-
-            highscoreText.GetComponent<RectTransform>().localPosition = new Vector3(0, offsetY);
-            highscoreText.GetComponent<Text>().alignment = TextAnchor.UpperLeft;
-
-            highscoreLoaded = true;
-        }
-
-        highscoreText.GetComponent<Text>().text = scoreTextTemp;
     }
 
     public void UpdateHighscore()
