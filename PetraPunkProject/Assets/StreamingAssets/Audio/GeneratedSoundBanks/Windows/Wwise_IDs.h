@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID FOOTSTEPLOOPPLACEHOLDER = 2886188696U;
         static const AkUniqueID FOOTSTEPR = 2385628199U;
         static const AkUniqueID JUMPPAD = 4149105284U;
+        static const AkUniqueID LOGO = 556785088U;
         static const AkUniqueID MUSICDRON = 506989395U;
         static const AkUniqueID MUSICTEST = 4195921398U;
         static const AkUniqueID PICKUP = 3978245845U;
@@ -65,6 +66,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID LOGOBANK = 1185387770U;
         static const AkUniqueID ONEBANKTORULETHEMALL = 3462106071U;
     } // namespace BANKS
 

@@ -64,10 +64,6 @@ public class UI_menu : MonoBehaviour
 
         switch (screen)
         {
-            case 3:
-                Debug.Log("back");
-                menuCloseClick.Raise();
-                break;
             case 2:
                 //btClick.Raise();
 

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	556785088	Logo			\Logo\Logo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	483281502	PlaceholderLogo2	C:\Users\dadiu\Dropbox\DADIU\Wwise\Minigame2_WwiseProject\PetraPunk_WwiseProject\.cache\Android\SFX\PlaceholderLogo2_32A0B821.wem		\Actor-Mixer Hierarchy\UI\PlaceholderLogo2		62159
+
