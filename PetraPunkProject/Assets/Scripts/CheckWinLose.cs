@@ -26,6 +26,7 @@ public class CheckWinLose : MonoBehaviour
             hasCompletedStory.Value = true;
             saveData.StoryModeCompleted = 1;
 
+            if(highScore != null)
             SaveLoadManager.SaveData(saveData,highScore);
 
             
