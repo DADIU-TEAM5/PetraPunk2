@@ -14,12 +14,12 @@ public class SaveData
     public int[] collectibles;
     public string[] names;
 
-    public SaveData(highScoreVariable highscore)
+    public SaveData(HighScoreVariable highscore)
     {
 
-        scores = new int[ highscore.scores.Length];
+        scores = new int[highscore.scores.Length];
         collectibles = new int[highscore.collectibles.Length];
-        names = new string[ highscore.names.Length];
+        names = new string[highscore.names.Length];
     }
 
 }

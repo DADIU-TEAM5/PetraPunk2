@@ -9,7 +9,7 @@ public class CheckWinLose : MonoBehaviour
     public BoolVariable hasCompletedStory;
     public GameObject UI_loseScene;
     public GameObject UI_winScene;
-    public highScoreVariable highScore;
+    public HighScoreVariable highScore;
 
     SaveData saveData;
    

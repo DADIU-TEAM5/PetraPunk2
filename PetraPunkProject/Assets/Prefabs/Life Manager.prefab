@@ -298,13 +298,13 @@ MonoBehaviour:
   lifeDisplay: {fileID: 4512068903373436211}
   death: {fileID: 11400000, guid: 4f800320a374d1a40bda01a521c41b52, type: 2}
   deathAudio: {fileID: 11400000, guid: 0879480d1ac96f848b5eae3312d1ffe3, type: 2}
-  CreditsScene: UI_menu
+  SelectedScene: 
   Heart1: {fileID: 3236899203370391902}
   Heart2: {fileID: 9215318017160716041}
   Heart3: {fileID: 6119009248936764617}
   GrayHeart: {fileID: 21300000, guid: 0a5c01c3d1c83cd419c6bf9cf21af33d, type: 3}
   RedHeart: {fileID: 21300000, guid: 37b3fb97028465a4caf7ed3b3ba7ffb2, type: 3}
-  highScore: {fileID: 11400000, guid: 80dad15df59306e4688b347c0777c79c, type: 2}
+  highScore: {fileID: 11400000, guid: e1c02de13b7b272489b19aee21488487, type: 2}
   NumberOfLifes: 3
 --- !u!114 &7984584494837175570
 MonoBehaviour:
@@ -440,10 +440,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2960, y: 1440}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

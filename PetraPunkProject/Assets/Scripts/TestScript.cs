@@ -7,7 +7,7 @@ public class TestScript : MonoBehaviour
 
     public Text text;
     SaveData saveData;
-    public highScoreVariable score;
+    public HighScoreVariable score;
     
 
     // Start is called before the first frame update
