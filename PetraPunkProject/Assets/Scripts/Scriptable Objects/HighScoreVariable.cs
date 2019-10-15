@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class highScoreVariable : ScriptableObject
+[System.Serializable]
+public class HighScoreVariable : ScriptableObject
 {
     public string[] names;
     public int[] scores;

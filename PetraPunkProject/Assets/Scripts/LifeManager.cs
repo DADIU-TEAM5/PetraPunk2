@@ -10,14 +10,14 @@ public class LifeManager : MonoBehaviour
     public Text lifeDisplay;
     public GameEvent death;
     public GameEvent deathAudio;
-    public string CreditsScene;
+    public string SelectedScene;
 
     public Image Heart1, Heart2, Heart3;
 
     public Sprite GrayHeart;
     public Sprite RedHeart;
 
-    public highScoreVariable highScore;
+    public HighScoreVariable highScore;
 
     public int NumberOfLifes;
 
@@ -41,12 +41,25 @@ public class LifeManager : MonoBehaviour
         if (Lifes.Value <= 0)
         {
             print("game Over");
-            SceneManager.LoadScene("EndlessLevel");
+            //SceneManager.LoadScene("EndlessLevel");
             
             if (!raisedDeath) {
                 deathAudio.Raise();
                 death.Raise();
                 raisedDeath = true;
+
+                if (highScore != null)
+                {
+                    SaveData saveData = new SaveData(highScore);
+
+                    saveData.scores = highScore.scores;
+                    saveData.collectibles = highScore.collectibles;
+                    saveData.names = highScore.names;
+
+                    saveData.StoryModeCompleted = 1;
+
+                    SaveLoadManager.SaveData(saveData, highScore);
+                }
             }
         } else {
             raisedDeath = false;
@@ -54,26 +67,7 @@ public class LifeManager : MonoBehaviour
 
         if (Lifes.Value <= 0 && raisedDeath == true && Input.GetMouseButton(0))
         {
-
-            if (highScore != null)
-            {
-                SaveData saveData = new SaveData(highScore);
-
-
-                highScore = new highScoreVariable();
-
-
-
-                highScore.scores = saveData.scores;
-                highScore.collectibles = saveData.collectibles;
-                highScore.names = saveData.names;
-
-
-                saveData.StoryModeCompleted = 1;
-
-                SaveLoadManager.SaveData(saveData, highScore);
-            }
-            LoadCredits();
+            LoadScene();
         }
 
     }
@@ -97,9 +91,9 @@ public class LifeManager : MonoBehaviour
         }
     }
 
-    public void LoadCredits()
+    public void LoadScene()
     {
-        SceneManager.LoadScene(CreditsScene);
+        SceneManager.LoadScene(SelectedScene);
     }
 
     

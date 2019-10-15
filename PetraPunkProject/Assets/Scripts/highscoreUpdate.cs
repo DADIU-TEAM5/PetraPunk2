@@ -5,15 +5,20 @@ using UnityEngine.UI;
 
 public class highscoreUpdate : MonoBehaviour
 {
-    public highScoreVariable highscore;
+    public HighScoreVariable highscore;
     public GameObject scoreTextObject;
     [Range(-360.0f, 360.0f)]
     public float offsetY = 0;
     public int scoreTextHeight;
     public Canvas scoreCanvas;
     private int size;
-    private string scoreTextTemp;
-    private GameObject highscoreText;
+    private string scoreTextTempPos;
+    private string scoreTextTempNames;
+    private string scoreTextTempScore;
+    private string scoreTextTempScarab;
+    private GameObject highscoreTextPos;
+    private GameObject highscoreTextScore;
+    private GameObject highscoreTextScarab;
     private bool highscoreLoaded = false;
     public bool showNames;
     public bool showScores;
@@ -28,17 +33,13 @@ public class highscoreUpdate : MonoBehaviour
 
     private void OnEnable()
     {
-        //ShowHighscore();
+        SaveData data = SaveLoadManager.LoadData(highscore);
 
-        SaveData data = new SaveData(highscore);
-        data.scores = highscore.scores;
-        data.names = highscore.names;
-        data.collectibles = highscore.collectibles;
-        data.StoryModeCompleted = 1;
+        highscore.scores = data.scores;
+        highscore.names = data.names;
+        highscore.collectibles = data.collectibles;
 
-
-        SaveLoadManager.SaveData(data, highscore);
-        
+        ShowHighscore();
 
     }
 
@@ -48,7 +49,10 @@ public class highscoreUpdate : MonoBehaviour
         {
             size = highscore.scores.Length;
 
-            scoreTextTemp = "";
+            scoreTextTempPos = "";
+            scoreTextTempNames = "";
+            scoreTextTempScore = "";
+            scoreTextTempScarab = "";
 
             while (size > 0)
             {
@@ -56,9 +60,12 @@ public class highscoreUpdate : MonoBehaviour
 
                 size--;
 
+                scoreTextTempPos = pos + "\n" + scoreTextTempPos;
+
                 if (showNames)
                 {
-                    scoreName = highscore.names[size].ToString() + "\t";
+                    scoreName = highscore.names[size].ToString() + "\n";
+                    scoreTextTempNames = scoreName + scoreTextTempNames;
                 }
                 else
                 {
@@ -68,27 +75,42 @@ public class highscoreUpdate : MonoBehaviour
                 if (showScores)
                 {
                     scorePoints = highscore.scores[size].ToString() + "\n";
+                    scoreTextTempScore = scorePoints + scoreTextTempScore;
                 }
                 else
                 {
                     scorePoints = "";
                 }
-                scoreCollectibles = highscore.collectibles[size].ToString() + "\t";
-
-                scoreTextTemp = "<b>" + pos + "</b>" + "\t" + scoreName + scoreCollectibles + scorePoints + scoreTextTemp;
+                scoreCollectibles = highscore.collectibles[size].ToString() + "\n";
+                scoreTextTempScarab = scoreCollectibles + scoreTextTempScarab;
             }
 
             if (!highscoreLoaded)
             {
-                highscoreText = Instantiate(scoreTextObject, scoreCanvas.transform);
+                //Pos text
+                highscoreTextPos = Instantiate(scoreTextObject, scoreCanvas.transform);
 
-                highscoreText.GetComponent<RectTransform>().localPosition = new Vector3(0, offsetY);
-                highscoreText.GetComponent<Text>().alignment = TextAnchor.UpperLeft;
+                highscoreTextPos.GetComponent<RectTransform>().localPosition = new Vector3(-500, offsetY);
+                highscoreTextPos.GetComponent<Text>().alignment = TextAnchor.UpperCenter;
+
+                //Score Text
+                highscoreTextScore = Instantiate(scoreTextObject, scoreCanvas.transform);
+
+                highscoreTextScore.GetComponent<RectTransform>().localPosition = new Vector3(0, offsetY);
+                highscoreTextScore.GetComponent<Text>().alignment = TextAnchor.UpperCenter;
+
+                //Scarab Text
+                highscoreTextScarab = Instantiate(scoreTextObject, scoreCanvas.transform);
+
+                highscoreTextScarab.GetComponent<RectTransform>().localPosition = new Vector3(500, offsetY);
+                highscoreTextScarab.GetComponent<Text>().alignment = TextAnchor.UpperCenter;
 
                 highscoreLoaded = true;
             }
 
-            highscoreText.GetComponent<Text>().text = scoreTextTemp;
+            highscoreTextPos.GetComponent<Text>().text = "<b>Pos:</b>" + "\n" + scoreTextTempPos;
+            highscoreTextScore.GetComponent<Text>().text = "<b>Score:</b>" + "\n" + scoreTextTempScore;
+            highscoreTextScarab.GetComponent<Text>().text = "<b>Scarabs:</b>" + "\n" + scoreTextTempScarab;
         }
     }
 
